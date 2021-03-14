@@ -30,6 +30,23 @@ Desenvolvedores: Seram responsável pela criação do sistema, do Front-End até
 
 Criadores de conteúdo: Poderam acessar as avaliações, comentários e críticas sobre os conteudos discutidos pelos usuários na plataforma. 
 
+#  5.objets não-funcionais 
+a. O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) 
+b. O sistema deve funcionar 100% online. 
+c. O sistema terá aplicativo, será apenas acessado pelo navegador  .
+d. O sistema web será desenvolvido em Python, Java e CSS .
+e. O número de páginas web pelas quais o usuário precisa navegar para acessar a informação de livros, filmes e séries será de no máximo 2 .
+f. O sistema deverá ser capaz de suportar 1000 usuários simultâneos.
+g. O Sistema deverá carregar a página em no máximo 5  segundos.
+h. O tempo médio para baixar e visualizar um whitepaper em uma conexão de 1Mbps não deverá exceder 10 segundos.
+i. O sistema deverá oferecer acesso protegido por senha para páginas web que são acessadas somente por funcionários.
+j. Os dados de transação devem ser transmitidos de forma criptografada.
+k. O sistema não deve permitir que usuário cadastre o mesmo filme, livro e série .
+ 
+l. O sistema deverá disponibilizar uma página web que explica como navegar pelo site. A página deverá ser customizada com base nas páginas que o usuário pode acessar. Esta página de ajuda deverá ser acessível a partir de todas as outras páginas.
+m. O sistema deverá ter interface com
+Uma base de dados relacional para informações do cliente.
+Uma base de dados relacional para informações dos livros, filmes e séries.
 
 
 
