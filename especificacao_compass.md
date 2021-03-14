@@ -30,7 +30,7 @@ Desenvolvedores: Seram responsável pela criação do sistema, do Front-End até
 
 Criadores de conteúdo: Poderam acessar as avaliações, comentários e críticas sobre os conteudos discutidos pelos usuários na plataforma. 
 
-#  5.objets não-funcionais 
+#  5. Objetos não-funcionais 
 a. O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) 
 
 b. O sistema deve funcionar 100% online. 
