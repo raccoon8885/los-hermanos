@@ -30,6 +30,31 @@ Desenvolvedores: Seram responsável pela criação do sistema, do Front-End até
 
 Criadores de conteúdo: Poderam acessar as avaliações, comentários e críticas sobre os conteudos discutidos pelos usuários na plataforma. 
 
+# 4. Objetos funcionais
+
+a. O sistema deverá permitir que os usuários criem e entrem com uma conta própria cadastrada com nome de usuário e senha.
+
+Isso permitirá que cada um escreva sua própria avaliação.
+Além disso, permitirá que os moderadores e administradores da página saibam quem pode estar cometendo algum tipo de conduta proibida na plataforma e tomar as atitudes necessárias.
+
+b. O sistema deverá permitir que os usuários encontrem títulos de filmes, séries e livros assim como seu ano de lançamento, sinopse, gênero, duração, direção e elenco principal.
+
+c. O sistema deverá permitir que usuários acessem e escrevam avaliações de filmes, séries e livros.
+
+Para os clientes, isto facilitará na hora de escolher ou adquirir algum título de acordo com a avaliação lida.
+E para os geradores dos conteúdos será uma boa forma de saber como o que foi produzido impactou os espectadores.
+
+d. O sistema permitirá que os usuários alterem ou excluam suas próprias avaliações.
+
+e. O sistema deverá permitir que usuários adicionem títulos na plataforma, sob aprovação dos administradores.
+
+f. O sistema deverá permitir que os usuários configurem seu perfil como público ou privado.
+
+g. O sistema deverá permitir que os usuários acessem perfis de outros usuários para visualizar as avaliações feitas, sob configuração de privacidade do perfil.
+
+h. O sistema deverá permitir que usuários possam compartilhar títulos ou avaliações via link.
+
+
 #  5. Objetos não-funcionais 
 a. O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) 
 
