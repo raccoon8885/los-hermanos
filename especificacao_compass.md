@@ -6,8 +6,7 @@
 - [1. Introdução](#1-introdução)
 - [2. Escopo do projeto](#3-escopo-do-projeto)
 - [3. Interessados](#4-interessados)
-- [4. Objetos funcionais](#4-objetos funcionais)
-- [5. Objetos Não funcionais](#5-objetos Não funcionais)
+
 
 
 # 1. Introdução
