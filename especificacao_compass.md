@@ -6,6 +6,8 @@
 - [1. Introdução](#1-introdução)
 - [2. Escopo do projeto](#3-escopo-do-projeto)
 - [3. Interessados](#4-interessados)
+- .[4.objetos funcionais]
+- [5. Objetos não funcionais]
 
 # 1. Introdução
 Este documento visa a especificação de requisitos para o sistema Compass, o qual o principal objetivo é a recomendação 
