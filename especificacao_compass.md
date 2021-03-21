@@ -30,6 +30,8 @@ outros usuários da plataforma sobre os conteudos postados.
 
 Desenvolvedores: Seram responsável pela criação do sistema, do Front-End até o Back-End. Garantindo a melhor experiência possivel para o usuário. 
 
+Adminstrador: Será responsável por validar e gerneciar o sistema. 
+
 Criadores de conteúdo: Poderam acessar as avaliações, comentários e críticas sobre os conteudos discutidos pelos usuários na plataforma. 
 
 # 4. Objetos funcionais
