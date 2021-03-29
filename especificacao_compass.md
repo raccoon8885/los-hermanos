@@ -89,7 +89,13 @@ RNF 13. O sistema deverá ter interface com
 Uma base de dados relacional para informações do cliente.
 Uma base de dados relacional para informações dos livros, filmes e séries.
 
+#  6. Casos de uso
 
 
+# 7. Diagrama de Sequência
+
+# 8. Diagrama de domínio
+# 9. Diagrama de Classes
+# 10. Wireframes
 
 
