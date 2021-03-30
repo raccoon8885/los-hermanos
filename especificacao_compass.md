@@ -96,7 +96,7 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 
 # 8. Diagrama de domínio
 # 9. Diagrama de Classes
-     ![diagramaDeClasse_R002](https://user-images.githubusercontent.com/61977035/113002383-16bba080-9148-11eb-8ff8-023b447820cb.jpeg)
+![diagramaDeClasse_R002](https://user-images.githubusercontent.com/61977035/113002383-16bba080-9148-11eb-8ff8-023b447820cb.jpeg)
 
 # 10. Wireframes
 
