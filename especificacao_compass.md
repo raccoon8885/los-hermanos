@@ -91,7 +91,92 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 
 #  6. Casos de uso
 
+**6.1 - Cadastrar novo membro**
 
+![image](https://user-images.githubusercontent.com/38226976/113227930-2501dd80-926a-11eb-9732-172cce7a1296.png)
+
+
+**Objetivo:** Definir como o caso de uso "Cadastrar novo membro" funciona, mostrando as etapas e possíveis ações de um membro novo na plataforma para que o mesmo crie sua conta.
+**Atores:** Membro não registrado e sistema.
+**Pré-condições:** O ator inserir seus dados pessoais corretamente. (Nome completo, data de nascimento, país onde reside, nome de usuário e senha)
+**Pós-condições:** Usuário acessa a conta pessoal criada.
+**Fluxo principal:**
+     1. O usuário decide se cadastrar no sistema.
+     2. O sistema solicita os dados pessoais para realizar o cadastro.
+     3. O usuário insere os dados.
+     4. O sistema verifica se não existe um cadastro com aquele mesmo nome de usuário.
+     5. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e cadastra o usuário.
+**Fluxo alternativo:**
+     Fluxo alternativo a.    
+          1. O usuário decide se cadastrar no sistema.             
+          2. O sistema solicita os dados pessoais para realizar o cadastro.
+          3. Usuário insere algum dado incompatível com o campo.
+          4. O sistema informa que não é possível inserir aquele tipo de dado.
+     Fluxo alternativo b.
+          1. O usuário decide se cadastrar no sistema.
+          2. O sistema solicita os dados pessoais para realizar o cadastro.
+          3. O usuário insere os dados.
+          4. O sistema identifica que já existe um usuário com aquele nome de usuário inserido.
+          5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o usuário escolha outro nome de usuário.
+
+
+**6.2 - Efetuar login**
+
+//INSERIR IMAGEM DE CASO DE USO AJUSTADA
+
+**Objetivo:** Detalhar o caso de uso do login de um usuário.
+**Atores:** Usuário e sistema.
+**Pré-condições:** Usuário ser cadastrado no sistema.
+**Pós-condições:** Acessar a área do aplicativo para membros.
+**Fluxo principal:**
+     1. Usuário decide fazer login no sistema.
+     2. Sistema solicita nome de usuário e senha.
+     3. Usuário insere nome de usuário e senha.
+     4. Sistema verifica dados inseridos.
+     5. Usuário acessa a área do aplicativo para membros.
+**Fluxo alternativo:**
+     Fluxo alternativo a.
+          1. Usuário decide fazer login no sistema.
+          2. Sistema solicita nome de usuário e senha.
+          3. Usuário insere nome de usuário e senha.
+          4. Sistema identifica dados incorretos inseridos.
+          5. Retorna ao passo 2 do fluxo principal.          
+
+**6.3 - Avaliar título**
+
+**Objetivo:** Especificar os comportamentos dos atores no caso de uso ao algum usuário querer avaliar algum título disponível no aplicativo.
+**Atores:** Membro cadastrado, sistema e administrador.
+**Pré-condições:** Usuário ter selecionado algum título no aplicativo para avaliar.
+**Pós-condições:** Avaliação sob avaliação do administrador.
+**Fluxo principal:**
+     1. Usuário decide avaliar título.
+     2. Usuário digita sua avaliação.
+     3. Usuário submete sua avaliação.
+     4. Sistema armezena avaliação.
+     5. Sistema envia avaliação a administrador.
+     6. Administrador aprova avaliação.
+     7. Sistema deixa visível avaliação na página do título avaliado.
+     8. Sistema notifica usuário.
+**Fluxo alternativo:**
+     Fluxo alternativo a.
+          1. Usuário decide avaliar título.
+          2. Usuário digita uma quantidade de caracteres maior que o permitido.
+          3. Sistema informa que a avaliação está grande demais.
+          4. Segue no passo 2 do fluxo principal.
+     Fluxo alternativo b.
+          1. Usuário decide avaliar título.
+          2. Usuário digita sua avaliação.
+          3. Usuário submete sua avaliação.
+          4. Sistema armezena avaliação.
+          5. Sistema envia avaliação a administrador.
+          6. Administrador reprova avaliação do usuário sobre o título.
+          7. Sistema notifica usuário.
+          
+**6.4 - Cadastrar título**
+
+**Objetivo:** Detalhar funcionamento do aplicativo em consequência ao usuário querer cadastrar um título no sistema.
+**Atores:** 
+          
 # 7. Diagrama de Sequência
 
 # 8. Diagrama de domínio
