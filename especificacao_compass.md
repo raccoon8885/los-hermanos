@@ -344,6 +344,8 @@ Fluxo alternativo b.
 # 7. Diagrama de Sequência
 
 # 8. Diagrama de domínio
+![diagramaDeDominio_R002](https://user-images.githubusercontent.com/61977035/113274722-628b5880-92b4-11eb-8bcf-d5b81c36d0f2.png)
+
 # 9. Diagrama de Classes
 ![diagramaDeClasse_R002](https://user-images.githubusercontent.com/61977035/113002383-16bba080-9148-11eb-8ff8-023b447820cb.jpeg)
 
