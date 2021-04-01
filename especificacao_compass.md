@@ -96,23 +96,33 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 ![image](https://user-images.githubusercontent.com/38226976/113227930-2501dd80-926a-11eb-9732-172cce7a1296.png)
 
 
-**Objetivo:** Definir como o caso de uso "Cadastrar novo membro" funciona, mostrando as etapas e possíveis ações de um membro novo na plataforma para que o mesmo crie sua conta.
+**Objetivo:** Criar conta no sistema para usuário.
+
 **Atores:** Membro não registrado e sistema.
+
 **Pré-condições:** O ator inserir seus dados pessoais corretamente. (Nome completo, data de nascimento, país onde reside, nome de usuário e senha)
+
 **Pós-condições:** Usuário acessa a conta pessoal criada.
+
 **Fluxo principal:**
+
      1. O usuário decide se cadastrar no sistema.
      2. O sistema solicita os dados pessoais para realizar o cadastro.
      3. O usuário insere os dados.
      4. O sistema verifica se não existe um cadastro com aquele mesmo nome de usuário.
      5. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e cadastra o usuário.
+          
 **Fluxo alternativo:**
-     Fluxo alternativo a.    
-          1. O usuário decide se cadastrar no sistema.             
+
+     Fluxo alternativo a.  
+     
+          1. O usuário decide se cadastrar no sistema.           
           2. O sistema solicita os dados pessoais para realizar o cadastro.
           3. Usuário insere algum dado incompatível com o campo.
           4. O sistema informa que não é possível inserir aquele tipo de dado.
+
      Fluxo alternativo b.
+
           1. O usuário decide se cadastrar no sistema.
           2. O sistema solicita os dados pessoais para realizar o cadastro.
           3. O usuário insere os dados.
@@ -124,18 +134,26 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 
 //INSERIR IMAGEM DE CASO DE USO AJUSTADA
 
-**Objetivo:** Detalhar o caso de uso do login de um usuário.
+**Objetivo:** Usuário acessar o aplicativo com sua conta.
+
 **Atores:** Usuário e sistema.
+
 **Pré-condições:** Usuário ser cadastrado no sistema.
+
 **Pós-condições:** Acessar a área do aplicativo para membros.
+
 **Fluxo principal:**
+
      1. Usuário decide fazer login no sistema.
      2. Sistema solicita nome de usuário e senha.
      3. Usuário insere nome de usuário e senha.
      4. Sistema verifica dados inseridos.
      5. Usuário acessa a área do aplicativo para membros.
+
 **Fluxo alternativo:**
+
      Fluxo alternativo a.
+
           1. Usuário decide fazer login no sistema.
           2. Sistema solicita nome de usuário e senha.
           3. Usuário insere nome de usuário e senha.
@@ -144,38 +162,184 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 
 **6.3 - Avaliar título**
 
-**Objetivo:** Especificar os comportamentos dos atores no caso de uso ao algum usuário querer avaliar algum título disponível no aplicativo.
+**Objetivo:** Inserir avaliação de título para que outros usuário possam ler.
+
 **Atores:** Membro cadastrado, sistema e administrador.
+
 **Pré-condições:** Usuário ter selecionado algum título no aplicativo para avaliar.
+
 **Pós-condições:** Avaliação sob avaliação do administrador.
+
 **Fluxo principal:**
+
      1. Usuário decide avaliar título.
      2. Usuário digita sua avaliação.
      3. Usuário submete sua avaliação.
-     4. Sistema armezena avaliação.
+     4. Sistema armazena avaliação.
      5. Sistema envia avaliação a administrador.
      6. Administrador aprova avaliação.
      7. Sistema deixa visível avaliação na página do título avaliado.
      8. Sistema notifica usuário.
+
 **Fluxo alternativo:**
+
      Fluxo alternativo a.
+
           1. Usuário decide avaliar título.
           2. Usuário digita uma quantidade de caracteres maior que o permitido.
           3. Sistema informa que a avaliação está grande demais.
           4. Segue no passo 2 do fluxo principal.
+
      Fluxo alternativo b.
+
           1. Usuário decide avaliar título.
           2. Usuário digita sua avaliação.
           3. Usuário submete sua avaliação.
-          4. Sistema armezena avaliação.
+          4. Sistema armazena avaliação.
           5. Sistema envia avaliação a administrador.
           6. Administrador reprova avaliação do usuário sobre o título.
           7. Sistema notifica usuário.
           
 **6.4 - Cadastrar título**
 
-**Objetivo:** Detalhar funcionamento do aplicativo em consequência ao usuário querer cadastrar um título no sistema.
-**Atores:** 
+**Objetivo:** Inserir um título não existente ainda no sistema para que outros usuários possam visualizar e avaliar.
+
+**Atores:** Membro, sistema e administrador.
+
+**Pré-condições:** Estar logado no sistema.
+
+**Pós-condições:** Título cadastrado no sistema.
+
+**Fluxo principal:**
+
+1.	Usuário decide cadastrar título.
+2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, direção, estúdio)
+3.	Usuário insere dados do título.
+4.	Usuário submete dados do título.
+5.	Sistema armazena dados e envia a administrador.
+6.	Administrador aprova cadastro de título.
+7.	Sistema notifica usuário.
+
+**Fluxo alternativo:**
+
+	Fluxo alternativo a.
+
+1.	Usuário decide cadastrar título.
+2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, direção, estúdio)
+3.	Usuário insere dados do título.
+4.	Sistema identifica dados incompatíveis com os campos.
+5.	Retorna ao passo 2.
+
+Fluxo alternativo b.
+
+1.	Usuário decide cadastrar título.
+2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, direção, estúdio)
+3.	Usuário insere dados do título.
+4.	Usuário submete dados do título.
+5.	Sistema armazena dados e envia a administrador.
+6.	Administrador reprova cadastro de título.
+7.	Sistema notifica usuário.
+
+**6.5 – Consultar relatórios**
+
+**Objetivo:** Manter administrador informado sobre ações e conteúdo no sistema.
+
+**Atores:** Sistema e administrador.
+
+**Pré-condições:** Administrador estar logado no sistema.
+
+**Pós-condições:** Visualização de relatório gerado.
+
+**Fluxo principal:**
+
+1.	Administrador decide visualizar relatório.
+2.	Administrador escolhe qual tipo de relatório deseja obter.
+3.	Sistema gera relatório.
+4.	Sistema apresenta relatório.
+
+**Fluxo alternativo:** Não possui.
+
+**6.6 – Adicionar usuário como amigo.
+
+**Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
+
+**Atores:** Membros e sistema.
+
+**Pré-condições:** Acessar página do perfil do outro usuário e usuário ainda não serem amigos na rede.
+
+**Pós-condições:** Adicionado outro usuário como amigo.
+
+**Fluxo principal:**
+
+     1.	Usuário decide adicionar outro membro como amigo.
+     2.	Usuário submete solicitação de amizade para o outro membro.
+     3.	Sistema envia a solicitação ao outro membro.
+     4.	Outro membro aceita solicitação de amizade.
+     5.	Sistema notifica membro que enviou solicitação.
+
+**Fluxo alternativo:**
+
+	Fluxo alternativo a.
+
+          1.	Usuário decide adicionar outro membro como amigo.
+          2.	Usuário submete solicitação de amizade para o outro membro.
+          3.	Sistema envia a solicitação ao outro membro.
+          4.	Outro membro recusa solicitação de amizade.
+
+**6.7 – Pesquisar usuário**
+
+**Objetivo:** Encontrar outros membros cadastrados.
+
+**Atores:** Usuário e sistema.
+
+**Pré-condições:** Estar logado no sistema.
+
+**Pós-condições:** Visualizar resultados de pesquisa.
+
+**Fluxo principal:**
+
+1.	Usuário decide pesquisar outro membro cadastrado.
+2.	Usuário digita pelo nome na barra de pesquisa.
+3.	Sistema consulta nome como aquele digitado.
+4.	Sistema apresenta resultados.
+
+**Fluxo alternativo:**
+
+	Fluxo alternativo a.
+
+1.	Usuário decide pesquisar outro membro cadastrado.
+2.	Usuário digita pelo nome na barra de pesquisa.
+3.	Sistema consulta nome como aquele digitado.
+4.	Sistema não encontra resultados.
+5.	Sistema informa que não foram encontrados resultados.
+
+**6.8 – Pesquisar título**
+
+**Objetivo:** Encontrar títulos cadastrados.
+
+**Atores:** Usuário e sistema.
+
+**Pré-condições:** Estar logado no sistema.
+
+**Pós-condições:** Visualizar resultados de pesquisa.
+
+**Fluxo principal:**
+
+1.	Usuário decide buscar por um título.
+2.	Usuário digita na barra de pesquisa informação sobre o título.
+3.	Sistema realiza busca por título contendo uma informação como aquela.
+4.	Sistema exibe resultados.
+
+**Fluxo alternativo:**
+
+	Fluxo alternativo a.
+
+1.	Usuário decide buscar por um título.
+2.	Usuário digita na barra de pesquisa informação sobre o título.
+3.	Sistema realiza busca por título contendo uma informação como aquela.
+4.	Sistema não encontra resultado.
+5.	Sistema informa que não foram encontrados resultados como aquele.
+
           
 # 7. Diagrama de Sequência
 
