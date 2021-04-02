@@ -109,8 +109,7 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
      1. O usuário decide se cadastrar no sistema.
      2. O sistema solicita os dados pessoais para realizar o cadastro.
      3. O usuário insere os dados.
-     4. O sistema verifica se não existe um cadastro com aquele mesmo nome de usuário.
-     5. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e cadastra o usuário.
+     4. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e cadastra o usuário.
           
 **Fluxo alternativo:**
 
@@ -214,7 +213,7 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 **Fluxo principal:**
 
 1.	Usuário decide cadastrar título.
-2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, direção, estúdio)
+2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
 3.	Usuário insere dados do título.
 4.	Usuário submete dados do título.
 5.	Sistema armazena dados e envia a administrador.
@@ -226,7 +225,7 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 	Fluxo alternativo a.
 
 1.	Usuário decide cadastrar título.
-2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, direção, estúdio)
+2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
 3.	Usuário insere dados do título.
 4.	Sistema identifica dados incompatíveis com os campos.
 5.	Retorna ao passo 2.
@@ -234,7 +233,7 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 Fluxo alternativo b.
 
 1.	Usuário decide cadastrar título.
-2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, direção, estúdio)
+2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
 3.	Usuário insere dados do título.
 4.	Usuário submete dados do título.
 5.	Sistema armazena dados e envia a administrador.
@@ -254,9 +253,9 @@ Fluxo alternativo b.
 **Fluxo principal:**
 
 1.	Administrador decide visualizar relatório.
-2.	Administrador escolhe qual tipo de relatório deseja obter.
-3.	Sistema gera relatório.
-4.	Sistema apresenta relatório.
+2.	Administrador entra na página de gerente.
+3.	Sistema gera relatórios.
+4.	Sistema apresenta relatórios.
 
 **Fluxo alternativo:** Não possui.
 
