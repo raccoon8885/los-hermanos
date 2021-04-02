@@ -129,6 +129,7 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
           4. O sistema identifica que já existe um usuário com aquele nome de usuário inserido.
           5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o usuário escolha outro nome de usuário.
 
+![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113447177-bb034880-93cf-11eb-9024-2a1dda91e4db.jpg)
 
 **6.2 - Efetuar login**
 
