@@ -128,11 +128,12 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
           4. O sistema identifica que já existe um usuário com aquele nome de usuário inserido.
           5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o usuário escolha outro nome de usuário.
 
-![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113447177-bb034880-93cf-11eb-9024-2a1dda91e4db.jpg)
+
 
 **6.2 - Efetuar login**
 
-//INSERIR IMAGEM DE CASO DE USO AJUSTADA
+![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113448534-66ad9800-93d2-11eb-8b6b-ceca8db3539e.jpg)
+
 
 **Objetivo:** Usuário acessar o aplicativo com sua conta.
 
@@ -161,6 +162,8 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
           5. Retorna ao passo 2 do fluxo principal.          
 
 **6.3 - Avaliar título**
+![UseCaseDiagram1](https://user-images.githubusercontent.com/61236154/113448548-74631d80-93d2-11eb-87ca-8408932b4795.jpg)
+
 
 **Objetivo:** Inserir avaliação de título para que outros usuário possam ler.
 
@@ -202,6 +205,10 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
           
 **6.4 - Cadastrar título**
 
+![UseCaseDiagram2](https://user-images.githubusercontent.com/61236154/113448582-82b13980-93d2-11eb-8a30-f598477675b1.jpg)
+![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448614-8cd33800-93d2-11eb-8be7-5939bfad1318.jpg)
+
+
 **Objetivo:** Inserir um título não existente ainda no sistema para que outros usuários possam visualizar e avaliar.
 
 **Atores:** Membro, sistema e administrador.
@@ -241,6 +248,8 @@ Fluxo alternativo b.
 7.	Sistema notifica usuário.
 
 **6.5 – Consultar relatórios**
+![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448631-952b7300-93d2-11eb-88c6-07c7ede65bd9.jpg)
+
 
 **Objetivo:** Manter administrador informado sobre ações e conteúdo no sistema.
 
@@ -260,6 +269,9 @@ Fluxo alternativo b.
 **Fluxo alternativo:** Não possui.
 
 **6.6 – Adicionar usuário como amigo.
+
+![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
+
 
 **Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
 
