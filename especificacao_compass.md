@@ -206,7 +206,7 @@ Uma base de dados relacional para informações dos livros, filmes e séries.
 **6.4 - Cadastrar título**
 
 ![UseCaseDiagram2](https://user-images.githubusercontent.com/61236154/113448582-82b13980-93d2-11eb-8a30-f598477675b1.jpg)
-![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448614-8cd33800-93d2-11eb-8be7-5939bfad1318.jpg)
+
 
 
 **Objetivo:** Inserir um título não existente ainda no sistema para que outros usuários possam visualizar e avaliar.
