@@ -40,15 +40,10 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 |  1 | O sistema deverá permitir que os usuários criem e entrem com uma conta própria cadastrada com nome de usuário e senha.|
 |  2 | O sistema deverá permitir que os usuários encontrem títulos de filmes, séries e livros assim como seu ano de lançamento, sinopse, gênero, duração, direção e elenco              principal.|
 |  3 | O sistema deverá permitir que usuários acessem e escrevam avaliações de filmes, séries e livros.|
-    
 |  4 | O sistema permitirá que os usuários alterem ou excluam suas próprias avaliações.|
-
 |  5 | O sistema deverá permitir que usuários adicionem títulos na plataforma, sob aprovação dos administradores.
-
 |  6 | O sistema deverá permitir que os usuários configurem seu perfil como público ou privado.|
-
 |  7 | O sistema deverá permitir que os usuários acessem perfis de outros usuários para visualizar as avaliações feitas, sob configuração de privacidade do perfil.|
-
 |  8  |O sistema deverá permitir que usuários possam compartilhar títulos ou avaliações via link.
 
 
@@ -56,33 +51,20 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 |RFN |  Descrição  |
 | :---: | ------------------- |
 | 1 | O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) | 
-
 | 2 | O sistema deve funcionar 100% online.|
-
 | 3 | O sistema terá aplicativo, será apenas acessado pelo navegador.|
-
 | 4 | O sistema web será desenvolvido em Python, Java e CSS.|
-
 | 5 | O número de páginas web pelas quais o usuário precisa navegar para acessar a informação de livros, filmes e séries será de no máximo 2.|
-
 | 6 | O sistema deverá ser capaz de suportar 1000 usuários simultâneos.|
-
 | 7 | O Sistema deverá carregar a página em no máximo 5  segundos.|
-
 | 8 | O tempo médio para baixar e visualizar um whitepaper em uma conexão de 1Mbps não deverá exceder 10 segundos.|
-
 | 9 | O sistema deverá oferecer acesso protegido por senha para páginas web que são acessadas somente por funcionários.|
-
 | 10 | Os dados de transação devem ser transmitidos de forma criptografada.|
-
 | 11 | O sistema não deve permitir que usuário cadastre o mesmo filme, livro e série .|
-
- 
 | 12 | O sistema deverá disponibilizar uma página web que explica como navegar pelo site. A página deverá ser customizada com base nas páginas que o usuário pode acessar. Esta página de ajuda deverá ser acessível a partir de todas as outras páginas.|
-
 | 13 | O sistema deverá ter interface com
 Uma base de dados relacional para informações do cliente.
-Uma base de dados relacional para informações dos livros, filmes e séries.
+Uma base de dados relacional para informações dos livros, filmes e séries.|
 
 #  6. Casos de uso
 
