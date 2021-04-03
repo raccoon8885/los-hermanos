@@ -38,7 +38,6 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 |RF |  Descrição  |
 | :---: | ------------------- |
 |  1 | O sistema deverá permitir que os usuários criem e entrem com uma conta própria cadastrada com nome de usuário e senha.|
-
 |  2 | O sistema deverá permitir que os usuários encontrem títulos de filmes, séries e livros assim como seu ano de lançamento, sinopse, gênero, duração, direção e elenco              principal.|
 |  3 | O sistema deverá permitir que usuários acessem e escrevam avaliações de filmes, séries e livros.|
     
