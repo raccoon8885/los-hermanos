@@ -194,33 +194,33 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 
 **Fluxo principal:**
 
-1.	Usuário decide cadastrar título.
-2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
-3.	Usuário insere dados do título.
-4.	Usuário submete dados do título.
-5.	Sistema armazena dados e envia a administrador.
-6.	Administrador aprova cadastro de título.
-7.	Sistema notifica usuário.
+     1.Usuário decide cadastrar título.
+     2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
+     3.Usuário insere dados do título.
+     4.Usuário submete dados do título.
+     5.Sistema armazena dados e envia a administrador.
+     6.Administrador aprova cadastro de título.
+     7.Sistema notifica usuário.
 
 **Fluxo alternativo:**
 
 	Fluxo alternativo a.
 
-1.	Usuário decide cadastrar título.
-2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
-3.	Usuário insere dados do título.
-4.	Sistema identifica dados incompatíveis com os campos.
-5.	Retorna ao passo 2.
+      1.Usuário decide cadastrar título.
+      2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
+      3.Usuário insere dados do título.
+      4.Sistema identifica dados incompatíveis com os campos.
+      5.Retorna ao passo 2.
 
 Fluxo alternativo b.
 
-1.	Usuário decide cadastrar título.
-2.	Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
-3.	Usuário insere dados do título.
-4.	Usuário submete dados do título.
-5.	Sistema armazena dados e envia a administrador.
-6.	Administrador reprova cadastro de título.
-7.	Sistema notifica usuário.
+      1.Usuário decide cadastrar título.
+      2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
+      3.Usuário insere dados do título.
+      4.Usuário submete dados do título.
+      5.Sistema armazena dados e envia a administrador.
+      6.Administrador reprova cadastro de título.
+      7.Sistema notifica usuário.
 
 **6.5 – Consultar relatórios**
 ![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448631-952b7300-93d2-11eb-88c6-07c7ede65bd9.jpg)
@@ -236,10 +236,10 @@ Fluxo alternativo b.
 
 **Fluxo principal:**
 
-1.	Administrador decide visualizar relatório.
-2.	Administrador entra na página de gerente.
-3.	Sistema gera relatórios.
-4.	Sistema apresenta relatórios.
+     1.Administrador decide visualizar relatório.
+     2.Administrador entra na página de gerente.
+     3.Sistema gera relatórios.
+     4.Sistema apresenta relatórios.
 
 **Fluxo alternativo:** Não possui.
 
@@ -268,10 +268,10 @@ Fluxo alternativo b.
 
 	Fluxo alternativo a.
 
-          1.	Usuário decide adicionar outro membro como amigo.
-          2.	Usuário submete solicitação de amizade para o outro membro.
-          3.	Sistema envia a solicitação ao outro membro.
-          4.	Outro membro recusa solicitação de amizade.
+          1.Usuário decide adicionar outro membro como amigo.
+          2.Usuário submete solicitação de amizade para o outro membro.
+          3.Sistema envia a solicitação ao outro membro.
+          4.Outro membro recusa solicitação de amizade.
 
 **6.7 – Pesquisar usuário**
 
@@ -288,20 +288,20 @@ Fluxo alternativo b.
 
 **Fluxo principal:**
 
-1.	Usuário decide pesquisar outro membro cadastrado.
-2.	Usuário digita pelo nome na barra de pesquisa.
-3.	Sistema consulta nome como aquele digitado.
-4.	Sistema apresenta resultados.
+      1.Usuário decide pesquisar outro membro cadastrado.
+      2.Usuário digita pelo nome na barra de pesquisa.
+      3.Sistema consulta nome como aquele digitado.
+      4.Sistema apresenta resultados.
 
 **Fluxo alternativo:**
 
 	Fluxo alternativo a.
 
-1.	Usuário decide pesquisar outro membro cadastrado.
-2.	Usuário digita pelo nome na barra de pesquisa.
-3.	Sistema consulta nome como aquele digitado.
-4.	Sistema não encontra resultados.
-5.	Sistema informa que não foram encontrados resultados.
+      1.Usuário decide pesquisar outro membro cadastrado.
+      2.Usuário digita pelo nome na barra de pesquisa.
+      3.Sistema consulta nome como aquele digitado.
+      4.Sistema não encontra resultados.
+      5.Sistema informa que não foram encontrados resultados.
 
 **6.8 – Pesquisar título**
 
@@ -317,20 +317,20 @@ Fluxo alternativo b.
 
 **Fluxo principal:**
 
-1.	Usuário decide buscar por um título.
-2.	Usuário digita na barra de pesquisa informação sobre o título.
-3.	Sistema realiza busca por título contendo uma informação como aquela.
-4.	Sistema exibe resultados.
+      1.Usuário decide buscar por um título.
+      2.Usuário digita na barra de pesquisa informação sobre o título.
+      3.Sistema realiza busca por título contendo uma informação como aquela.
+      4.Sistema exibe resultados.
 
 **Fluxo alternativo:**
 
 	Fluxo alternativo a.
 
-1.	Usuário decide buscar por um título.
-2.	Usuário digita na barra de pesquisa informação sobre o título.
-3.	Sistema realiza busca por título contendo uma informação como aquela.
-4.	Sistema não encontra resultado.
-5.	Sistema informa que não foram encontrados resultados como aquele.
+       1.Usuário decide buscar por um título. 
+       2.Usuário digita na barra de pesquisa informação sobre o título.
+       3.Sistema realiza busca por título contendo uma informação como aquela.
+       4.Sistema não encontra resultado.
+       5.Sistema informa que não foram encontrados resultados como aquele.
 
           
 # 7. Diagrama de Sequência
