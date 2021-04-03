@@ -359,45 +359,48 @@ Fluxo alternativo b.
 
           
 # 7. Diagrama de Sequência
-**Membro não castrado** 
+
+
+
+   **(1) Membro não castrado** 
 
 ![diagrama de sequencia membro não registrado5](https://user-images.githubusercontent.com/61236154/113491187-47336f80-94a5-11eb-8045-da90cc49bf08.jpeg)
 
-**login**
+   **(2) Login**
 
 ![diagrama de sequencia fazer login 6](https://user-images.githubusercontent.com/61236154/113491223-806bdf80-94a5-11eb-83f8-e1cebd6915b2.jpeg)
 
-**addFilme**
+   **(3.1) AddFilme**
 
 ![Diagrama em branco addfilme2](https://user-images.githubusercontent.com/61236154/113491235-a1343500-94a5-11eb-881d-0eb7b800c9f9.jpeg)
 
-**addSerie**
+   **(3.2) AddSerie**
 
 ![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491261-d6408780-94a5-11eb-9303-c0c109dfeed4.jpeg)
 
-**addLivro**
+   **(3.3) AddLivro**
 
 ![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491270-dd679580-94a5-11eb-9582-ac3869d04ed5.jpeg)
 
-**fazer avaliação**
+   **(4.1) Fazer avaliação**
 
 ![Diagrama em branco seuqencia avaliação](https://user-images.githubusercontent.com/61236154/113491315-30d9e380-94a6-11eb-826d-858ee7619230.jpeg)
 
-**deixar like*
+   **(4.2) Deixar like**
 
 ![Diagrama em branco sequencia avalia like](https://user-images.githubusercontent.com/61236154/113491331-4e0eb200-94a6-11eb-84a6-8914b1780893.jpeg)
 
-**solicita Amigo**
+   **(5.1) Solicita Amigo**
 ![diagrama de sequencia solicita amigo1](https://user-images.githubusercontent.com/61236154/113491350-70083480-94a6-11eb-911c-3ab21c3fbbed.jpeg)
 
-**aceita amigo**
+   **(5.2) Aceita amigo**
 ![diagrama de sequencia addamigo1](https://user-images.githubusercontent.com/61236154/113491360-8615f500-94a6-11eb-8422-ddba4f9c7801.jpeg)
 
-**rejeita amigo**
+   **(5.3) Rejeita amigo**
 
 ![amigo rejeitado1](https://user-images.githubusercontent.com/61236154/113491370-a04fd300-94a6-11eb-9994-5a6dfb2ed4ba.jpeg)
 
-**gerente**
+   **(6) Gerente**
 
 ![diagrama de sequencia gerente 4](https://user-images.githubusercontent.com/61236154/113491385-c1182880-94a6-11eb-9ccd-cb5f611da6da.jpeg)
 
