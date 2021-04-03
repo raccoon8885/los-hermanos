@@ -6,7 +6,7 @@
 - [1. Introdução](#1-introdução)
 - [2. Escopo do projeto](#3-escopo-do-projeto)
 - [3. Interessados](#4-interessados)
-
+-[4.requisitos funcionais]
 
 
 # 1. Introdução
@@ -268,7 +268,7 @@ Fluxo alternativo b.
 
 **Fluxo alternativo:** Não possui.
 
-**6.6 – Adicionar usuário como amigo.
+**6.6 – Adicionar usuário como amigo**
 
 ![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
 
@@ -300,6 +300,9 @@ Fluxo alternativo b.
 
 **6.7 – Pesquisar usuário**
 
+![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
+
+
 **Objetivo:** Encontrar outros membros cadastrados.
 
 **Atores:** Usuário e sistema.
@@ -326,6 +329,8 @@ Fluxo alternativo b.
 5.	Sistema informa que não foram encontrados resultados.
 
 **6.8 – Pesquisar título**
+
+![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491138-d4c28f80-94a4-11eb-8884-74c528e9b21c.jpg)
 
 **Objetivo:** Encontrar títulos cadastrados.
 
@@ -354,6 +359,51 @@ Fluxo alternativo b.
 
           
 # 7. Diagrama de Sequência
+
+
+
+   **(1) Membro não castrado** 
+
+![diagrama de sequencia membro não registrado5](https://user-images.githubusercontent.com/61236154/113491187-47336f80-94a5-11eb-8045-da90cc49bf08.jpeg)
+
+   **(2) Login**
+
+![diagrama de sequencia fazer login 6](https://user-images.githubusercontent.com/61236154/113491223-806bdf80-94a5-11eb-83f8-e1cebd6915b2.jpeg)
+
+   **(3.1) AddFilme**
+
+![Diagrama em branco addfilme2](https://user-images.githubusercontent.com/61236154/113491235-a1343500-94a5-11eb-881d-0eb7b800c9f9.jpeg)
+
+   **(3.2) AddSerie**
+
+![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491261-d6408780-94a5-11eb-9303-c0c109dfeed4.jpeg)
+
+   **(3.3) AddLivro**
+
+![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491270-dd679580-94a5-11eb-9582-ac3869d04ed5.jpeg)
+
+   **(4.1) Fazer avaliação**
+
+![Diagrama em branco seuqencia avaliação](https://user-images.githubusercontent.com/61236154/113491315-30d9e380-94a6-11eb-826d-858ee7619230.jpeg)
+
+   **(4.2) Deixar like**
+
+![Diagrama em branco sequencia avalia like](https://user-images.githubusercontent.com/61236154/113491331-4e0eb200-94a6-11eb-84a6-8914b1780893.jpeg)
+
+   **(5.1) Solicita Amigo**
+![diagrama de sequencia solicita amigo1](https://user-images.githubusercontent.com/61236154/113491350-70083480-94a6-11eb-911c-3ab21c3fbbed.jpeg)
+
+   **(5.2) Aceita amigo**
+![diagrama de sequencia addamigo1](https://user-images.githubusercontent.com/61236154/113491360-8615f500-94a6-11eb-8422-ddba4f9c7801.jpeg)
+
+   **(5.3) Rejeita amigo**
+
+![amigo rejeitado1](https://user-images.githubusercontent.com/61236154/113491370-a04fd300-94a6-11eb-9994-5a6dfb2ed4ba.jpeg)
+
+   **(6) Gerente**
+
+![diagrama de sequencia gerente 4](https://user-images.githubusercontent.com/61236154/113491385-c1182880-94a6-11eb-9ccd-cb5f611da6da.jpeg)
+
 
 # 8. Diagrama de domínio
 ![diagramaDeDominio_R002](https://user-images.githubusercontent.com/61977035/113274722-628b5880-92b4-11eb-8bcf-d5b81c36d0f2.png)
