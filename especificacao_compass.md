@@ -55,6 +55,7 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 
 #  5. Requisitos não-funcionais
 |RFN |  Descrição  |
+| :---: | ------------------- |
 | 1 | O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) | 
 
 | 2 | O sistema deve funcionar 100% online.|
