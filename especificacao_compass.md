@@ -76,7 +76,7 @@ Cenario: cadastrar novo membro
 
 
 
-**6.1 Cadastrar novo membro **
+## 6.1 Cadastrar novo membro
 
 **Objetivo:** Criar conta no sistema para usuário.
 
