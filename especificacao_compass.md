@@ -35,8 +35,9 @@ Adminstrador: Será responsável por validar e gerenciar o sistema.
 Criadores de conteúdo: Poderam acessar as avaliações, comentários e críticas sobre os conteudos discutidos pelos usuários na plataforma. 
 
 # 4. Requisitos funcionais 
-
-RF 1. O sistema deverá permitir que os usuários criem e entrem com uma conta própria cadastrada com nome de usuário e senha.
+|RF |  Descrição  |
+| :---: | ------------------- |
+|  1 | O sistema deverá permitir que os usuários criem e entrem com uma conta própria cadastrada com nome de usuário e senha.|
 
      Isso permitirá que cada um escreva sua própria avaliação.
      Além disso, permitirá que os moderadores e administradores da página saibam quem pode estar cometendo algum tipo de conduta proibida na plataforma e tomar as atitudes            necessárias.
