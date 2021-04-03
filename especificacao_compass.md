@@ -39,25 +39,18 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 | :---: | ------------------- |
 |  1 | O sistema deverá permitir que os usuários criem e entrem com uma conta própria cadastrada com nome de usuário e senha.|
 
-     Isso permitirá que cada um escreva sua própria avaliação.
-     Além disso, permitirá que os moderadores e administradores da página saibam quem pode estar cometendo algum tipo de conduta proibida na plataforma e tomar as atitudes            necessárias.
-
 |  2 | O sistema deverá permitir que os usuários encontrem títulos de filmes, séries e livros assim como seu ano de lançamento, sinopse, gênero, duração, direção e elenco              principal.|
-
 |  3 | O sistema deverá permitir que usuários acessem e escrevam avaliações de filmes, séries e livros.|
+    
+|  4 | O sistema permitirá que os usuários alterem ou excluam suas próprias avaliações.|
 
-     Para os clientes, isto facilitará na hora de escolher ou adquirir algum título de acordo com a avaliação lida.
-     E para os geradores dos conteúdos será uma boa forma de saber como o que foi produzido impactou os espectadores.
+|  5 | O sistema deverá permitir que usuários adicionem títulos na plataforma, sob aprovação dos administradores.
 
-| 4 | O sistema permitirá que os usuários alterem ou excluam suas próprias avaliações.|
+|  6 | O sistema deverá permitir que os usuários configurem seu perfil como público ou privado.|
 
-| 5 | O sistema deverá permitir que usuários adicionem títulos na plataforma, sob aprovação dos administradores.
+|  7 | O sistema deverá permitir que os usuários acessem perfis de outros usuários para visualizar as avaliações feitas, sob configuração de privacidade do perfil.|
 
-| 6 | O sistema deverá permitir que os usuários configurem seu perfil como público ou privado.|
-
-| 7 | O sistema deverá permitir que os usuários acessem perfis de outros usuários para visualizar as avaliações feitas, sob configuração de privacidade do perfil.|
-
-| 8  |O sistema deverá permitir que usuários possam compartilhar títulos ou avaliações via link.
+|  8  |O sistema deverá permitir que usuários possam compartilhar títulos ou avaliações via link.
 
 
 #  5. Requisitos não-funcionais
