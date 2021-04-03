@@ -9,7 +9,7 @@ usuários poderam interagir entre si, com um design responsivo e leve, podendo s
 
 - Para mais detalhes, acesse a especificação do projeto -> [especificação_compass](https://github.com/dyolnegao/los-hermanos/blob/main/especificacao_compass.md)
 - Link para o nosso Trello -> [Trello](https://trello.com/b/1RqylFYk/compass-sistema-web-los-hermanos)
-- Hello World -> [Hello World - Compass]https://agile-refuge-63480.herokuapp.com/
+- Hello World -> [Hello World - Compass - Flask based](https://agile-refuge-63480.herokuapp.com/)
 
 
 # Integrantes 
