@@ -5,6 +5,13 @@
 <details closed="closed">
   <ol>
     <li><a href="#1-introdução">Introdução</a></li>
+    <li><a href="#2-Escopo-do-projeto">Escopo do projeto</a></li>
+    <li><a href="#3-Interessados">Interessados</a></li>
+    <li><a href="#4-Requisitos-funcionais ">Requisitos funcionais</a></li>
+    <li><a href="#5-Requisitos-não-funcionais">Requisitos Não Funcionais</a></li>
+    <li><a href="#6-Casos-de-uso">Casos de uso</a></li>
+      <ul>
+        <li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
 
 
 # 1. Introdução
@@ -45,7 +52,7 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 |  8  |O sistema deverá permitir que usuários possam compartilhar títulos ou avaliações via link.
 
 
-#  5. Requisitos não-funcionais
+#  5. Requisitos não funcionais
 |RFN |  Descrição  |
 | :---: | ------------------- |
 | 1 | O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) | 
