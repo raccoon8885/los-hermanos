@@ -386,7 +386,7 @@ Fluxo alternativo b.
 
 ![Diagrama em branco seuqencia avaliação](https://user-images.githubusercontent.com/61236154/113491315-30d9e380-94a6-11eb-826d-858ee7619230.jpeg)
 
-   **7.4.2 Deixar like**
+   **7.4.2 Deixa like**
 
 ![Diagrama em branco sequencia avalia like](https://user-images.githubusercontent.com/61236154/113491331-4e0eb200-94a6-11eb-84a6-8914b1780893.jpeg)
 
