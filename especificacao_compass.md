@@ -70,11 +70,13 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 | 13 | O sistema deverá ter interface com Uma base de dados relacional para informações do cliente. Uma base de dados relacional para informações dos livros, filmes e séries.|
 
 #  6. Casos de uso
-
-**6.1 - Cadastrar novo membro**
+Cenario: cadastrar novo membro
 
 ![image](https://user-images.githubusercontent.com/38226976/113227930-2501dd80-926a-11eb-9732-172cce7a1296.png)
 
+
+
+**6.1 Cadastrar novo membro **
 
 **Objetivo:** Criar conta no sistema para usuário.
 
