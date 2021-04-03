@@ -268,7 +268,7 @@ Fluxo alternativo b.
 
 **Fluxo alternativo:** Não possui.
 
-**6.6 – Adicionar usuário como amigo.
+**6.6 – Adicionar usuário como amigo**
 
 ![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
 
