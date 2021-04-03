@@ -62,9 +62,7 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 | 10 | Os dados de transação devem ser transmitidos de forma criptografada.|
 | 11 | O sistema não deve permitir que usuário cadastre o mesmo filme, livro e série .|
 | 12 | O sistema deverá disponibilizar uma página web que explica como navegar pelo site. A página deverá ser customizada com base nas páginas que o usuário pode acessar. Esta página de ajuda deverá ser acessível a partir de todas as outras páginas.|
-| 13 | O sistema deverá ter interface com
-Uma base de dados relacional para informações do cliente.
-Uma base de dados relacional para informações dos livros, filmes e séries.|
+| 13 | O sistema deverá ter interface com Uma base de dados relacional para informações do cliente. Uma base de dados relacional para informações dos livros, filmes e séries.|
 
 #  6. Casos de uso
 
