@@ -109,12 +109,11 @@ Cenario: cadastrar novo membro
           3. O usuário insere os dados.
           4. O sistema identifica que já existe um usuário com aquele nome de usuário inserido.
           5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o usuário escolha outro nome de usuário.
-
-
-
-**6.2 - Efetuar login**
+Cenario: Efetuar login
 
 ![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113448534-66ad9800-93d2-11eb-8b6b-ceca8db3539e.jpg)
+
+##6.2 Efetuar login
 
 
 **Objetivo:** Usuário acessar o aplicativo com sua conta.
@@ -143,8 +142,10 @@ Cenario: cadastrar novo membro
           4. Sistema identifica dados incorretos inseridos.
           5. Retorna ao passo 2 do fluxo principal.          
 
-**6.3 - Avaliar título**
-![UseCaseDiagram1](https://user-images.githubusercontent.com/61236154/113448548-74631d80-93d2-11eb-87ca-8408932b4795.jpg)
+ centario: Avavaliar titulo
+ ![UseCaseDiagram1](https://user-images.githubusercontent.com/61236154/113448548-74631d80-93d2-11eb-87ca-8408932b4795.jpg)
+
+##6.3 Avaliar título
 
 
 **Objetivo:** Inserir avaliação de título para que outros usuário possam ler.
@@ -184,12 +185,11 @@ Cenario: cadastrar novo membro
           5. Sistema envia avaliação a administrador.
           6. Administrador reprova avaliação do usuário sobre o título.
           7. Sistema notifica usuário.
-          
-**6.4 - Cadastrar título**
-
-![UseCaseDiagram2](https://user-images.githubusercontent.com/61236154/113448582-82b13980-93d2-11eb-8a30-f598477675b1.jpg)
-
-
+ 
+ cenario:castrar titulo
+ ![UseCaseDiagram2](https://user-images.githubusercontent.com/61236154/113448582-82b13980-93d2-11eb-8a30-f598477675b1.jpg)
+ 
+##6.4  Cadastrar título
 
 **Objetivo:** Inserir um título não existente ainda no sistema para que outros usuários possam visualizar e avaliar.
 
@@ -228,10 +228,11 @@ Fluxo alternativo b.
       5.Sistema armazena dados e envia a administrador.
       6.Administrador reprova cadastro de título.
       7.Sistema notifica usuário.
-
-**6.5 – Consultar relatórios**
+	
+cenario:Consultar relatório
 ![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448631-952b7300-93d2-11eb-88c6-07c7ede65bd9.jpg)
 
+##6.5 Consultar relatórios
 
 **Objetivo:** Manter administrador informado sobre ações e conteúdo no sistema.
 
@@ -250,9 +251,11 @@ Fluxo alternativo b.
 
 **Fluxo alternativo:** Não possui.
 
-**6.6 – Adicionar usuário como amigo**
+cenario: Manter amizade 
 
 ![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
+
+##6.6 – Adicionar usuário como amigo
 
 
 **Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
@@ -279,8 +282,11 @@ Fluxo alternativo b.
           2.Usuário submete solicitação de amizade para o outro membro.
           3.Sistema envia a solicitação ao outro membro.
           4.Outro membro recusa solicitação de amizade.
+cenario: pesquisar membro 
 
-**6.7 – Pesquisar usuário**
+![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
+
+##6.7 Pesquisar membro
 
 ![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
 
@@ -309,10 +315,12 @@ Fluxo alternativo b.
       3.Sistema consulta nome como aquele digitado.
       4.Sistema não encontra resultados.
       5.Sistema informa que não foram encontrados resultados.
+   
+cenario: pesquisar titulo
+
+![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491138-d4c28f80-94a4-11eb-8884-74c528e9b21c.jpg) 
 
 **6.8 – Pesquisar título**
-
-![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491138-d4c28f80-94a4-11eb-8884-74c528e9b21c.jpg)
 
 **Objetivo:** Encontrar títulos cadastrados.
 
