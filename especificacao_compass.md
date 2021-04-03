@@ -329,8 +329,8 @@ Fluxo alternativo b.
 5.	Sistema informa que não foram encontrados resultados.
 
 **6.8 – Pesquisar título**
-![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491042-40f0c380-94a4-11eb-974a-5208c4c7148f.jpg)
 
+![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491138-d4c28f80-94a4-11eb-8884-74c528e9b21c.jpg)
 
 **Objetivo:** Encontrar títulos cadastrados.
 
