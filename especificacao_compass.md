@@ -42,51 +42,52 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
      Isso permitirá que cada um escreva sua própria avaliação.
      Além disso, permitirá que os moderadores e administradores da página saibam quem pode estar cometendo algum tipo de conduta proibida na plataforma e tomar as atitudes            necessárias.
 
-RF 2. O sistema deverá permitir que os usuários encontrem títulos de filmes, séries e livros assim como seu ano de lançamento, sinopse, gênero, duração, direção e elenco              principal.
+|  2 | O sistema deverá permitir que os usuários encontrem títulos de filmes, séries e livros assim como seu ano de lançamento, sinopse, gênero, duração, direção e elenco              principal.|
 
-RF 3. O sistema deverá permitir que usuários acessem e escrevam avaliações de filmes, séries e livros.
+|  3 | O sistema deverá permitir que usuários acessem e escrevam avaliações de filmes, séries e livros.|
 
      Para os clientes, isto facilitará na hora de escolher ou adquirir algum título de acordo com a avaliação lida.
      E para os geradores dos conteúdos será uma boa forma de saber como o que foi produzido impactou os espectadores.
 
-RF 4. O sistema permitirá que os usuários alterem ou excluam suas próprias avaliações.
+| 4 | O sistema permitirá que os usuários alterem ou excluam suas próprias avaliações.|
 
-RF 5. O sistema deverá permitir que usuários adicionem títulos na plataforma, sob aprovação dos administradores.
+| 5 | O sistema deverá permitir que usuários adicionem títulos na plataforma, sob aprovação dos administradores.
 
-RF 6. O sistema deverá permitir que os usuários configurem seu perfil como público ou privado.
+| 6 | O sistema deverá permitir que os usuários configurem seu perfil como público ou privado.|
 
-RF 7. O sistema deverá permitir que os usuários acessem perfis de outros usuários para visualizar as avaliações feitas, sob configuração de privacidade do perfil.
+| 7 | O sistema deverá permitir que os usuários acessem perfis de outros usuários para visualizar as avaliações feitas, sob configuração de privacidade do perfil.|
 
-RF 8. O sistema deverá permitir que usuários possam compartilhar títulos ou avaliações via link.
+| 8  |O sistema deverá permitir que usuários possam compartilhar títulos ou avaliações via link.
 
 
-#  5. Requisitos não-funcionais 
-RNF 1. O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) 
+#  5. Requisitos não-funcionais
+|RFN |  Descrição  |
+| 1 | O sistema deverá funcionar em qualquer navegador(ex chrome, firefox e etc) | 
 
-RNF 2. O sistema deve funcionar 100% online. 
+| 2 | O sistema deve funcionar 100% online.|
 
-RNF 3. O sistema terá aplicativo, será apenas acessado pelo navegador.
+| 3 | O sistema terá aplicativo, será apenas acessado pelo navegador.|
 
-RNF 4. O sistema web será desenvolvido em Python, Java e CSS.
+| 4 | O sistema web será desenvolvido em Python, Java e CSS.|
 
-RNF 5. O número de páginas web pelas quais o usuário precisa navegar para acessar a informação de livros, filmes e séries será de no máximo 2.
+| 5 | O número de páginas web pelas quais o usuário precisa navegar para acessar a informação de livros, filmes e séries será de no máximo 2.|
 
-RNF 6. O sistema deverá ser capaz de suportar 1000 usuários simultâneos.
+| 6 | O sistema deverá ser capaz de suportar 1000 usuários simultâneos.|
 
-RNF 7. O Sistema deverá carregar a página em no máximo 5  segundos.
+| 7 | O Sistema deverá carregar a página em no máximo 5  segundos.|
 
-RNF 8. O tempo médio para baixar e visualizar um whitepaper em uma conexão de 1Mbps não deverá exceder 10 segundos.
+| 8 | O tempo médio para baixar e visualizar um whitepaper em uma conexão de 1Mbps não deverá exceder 10 segundos.|
 
-RNF 9. O sistema deverá oferecer acesso protegido por senha para páginas web que são acessadas somente por funcionários.
+| 9 | O sistema deverá oferecer acesso protegido por senha para páginas web que são acessadas somente por funcionários.|
 
-RNF 10. Os dados de transação devem ser transmitidos de forma criptografada.
+| 10 | Os dados de transação devem ser transmitidos de forma criptografada.|
 
-RNF 11. O sistema não deve permitir que usuário cadastre o mesmo filme, livro e série .
+| 11 | O sistema não deve permitir que usuário cadastre o mesmo filme, livro e série .|
 
  
-RNF 12. O sistema deverá disponibilizar uma página web que explica como navegar pelo site. A página deverá ser customizada com base nas páginas que o usuário pode acessar. Esta página de ajuda deverá ser acessível a partir de todas as outras páginas.
+| 12 | O sistema deverá disponibilizar uma página web que explica como navegar pelo site. A página deverá ser customizada com base nas páginas que o usuário pode acessar. Esta página de ajuda deverá ser acessível a partir de todas as outras páginas.|
 
-RNF 13. O sistema deverá ter interface com
+| 13 | O sistema deverá ter interface com
 Uma base de dados relacional para informações do cliente.
 Uma base de dados relacional para informações dos livros, filmes e séries.
 
