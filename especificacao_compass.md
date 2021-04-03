@@ -6,7 +6,7 @@
 - [1. Introdução](#1-introdução)
 - [2. Escopo do projeto](#3-escopo-do-projeto)
 - [3. Interessados](#4-interessados)
-
+-[4.requisitos funcionais]
 
 
 # 1. Introdução
@@ -300,6 +300,9 @@ Fluxo alternativo b.
 
 **6.7 – Pesquisar usuário**
 
+![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
+
+
 **Objetivo:** Encontrar outros membros cadastrados.
 
 **Atores:** Usuário e sistema.
@@ -326,6 +329,8 @@ Fluxo alternativo b.
 5.	Sistema informa que não foram encontrados resultados.
 
 **6.8 – Pesquisar título**
+![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491042-40f0c380-94a4-11eb-974a-5208c4c7148f.jpg)
+
 
 **Objetivo:** Encontrar títulos cadastrados.
 
