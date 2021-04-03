@@ -2,11 +2,9 @@
 
 
 **Índice**
-
-- [1. Introdução](#1-introdução)
-- [2. Escopo do projeto](#3-escopo-do-projeto)
-- [3. Interessados](#4-interessados)
--[4.requisitos funcionais]
+<details closed="closed">
+  <ol>
+    <li><a href="#1-introdução">Introdução</a></li>
 
 
 # 1. Introdução
