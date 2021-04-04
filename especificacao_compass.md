@@ -433,7 +433,8 @@ cenario: pesquisar titulo
 
 
 # 9 Diagrama de Classes
-![diagramaDeClasse_R003](https://user-images.githubusercontent.com/61977035/113503468-716a4900-9508-11eb-8ab3-74e038d4f6c0.png)
+![Uploading diagramaDeClasse_R004.png…]()
+
 
 
 # 10 Wireframes
