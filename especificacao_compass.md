@@ -117,7 +117,7 @@ Cenario: Efetuar login
 
 ![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113448534-66ad9800-93d2-11eb-8b6b-ceca8db3539e.jpg)
 
-##6.2 Efetuar login
+## 6.2 Efetuar login
 
 
 **Objetivo:** Usuário acessar o aplicativo com sua conta.
@@ -149,7 +149,7 @@ Cenario: Efetuar login
  centario: Avavaliar titulo
  ![UseCaseDiagram1](https://user-images.githubusercontent.com/61236154/113448548-74631d80-93d2-11eb-87ca-8408932b4795.jpg)
 
-##6.3 Avaliar título
+## 6.3 Avaliar título
 
 
 **Objetivo:** Inserir avaliação de título para que outros usuário possam ler.
@@ -193,7 +193,7 @@ Cenario: Efetuar login
  cenario:castrar titulo
  ![UseCaseDiagram2](https://user-images.githubusercontent.com/61236154/113448582-82b13980-93d2-11eb-8a30-f598477675b1.jpg)
  
-##6.4  Cadastrar título
+## 6.4  Cadastrar título
 
 **Objetivo:** Inserir um título não existente ainda no sistema para que outros usuários possam visualizar e avaliar.
 
@@ -236,7 +236,7 @@ Fluxo alternativo b.
 cenario:Consultar relatório
 ![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448631-952b7300-93d2-11eb-88c6-07c7ede65bd9.jpg)
 
-##6.5 Consultar relatórios
+## 6.5 Consultar relatórios
 
 **Objetivo:** Manter administrador informado sobre ações e conteúdo no sistema.
 
@@ -259,7 +259,7 @@ cenario: Manter amizade
 
 ![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
 
-##6.6 – Adicionar usuário como amigo
+## 6.6 – Adicionar usuário como amigo
 
 
 **Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
@@ -290,7 +290,7 @@ cenario: pesquisar membro
 
 ![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
 
-##6.7 Pesquisar membro
+## 6.7 Pesquisar membro
 
 ![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
 
@@ -324,7 +324,7 @@ cenario: pesquisar titulo
 
 ![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491138-d4c28f80-94a4-11eb-8884-74c528e9b21c.jpg) 
 
-**6.8 – Pesquisar título**
+## 6.8 – Pesquisar título
 
 **Objetivo:** Encontrar títulos cadastrados.
 
