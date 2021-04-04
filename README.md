@@ -17,5 +17,5 @@ usuários poderam interagir entre si, com um design responsivo e leve, podendo s
 - Augusto Rosasco - 31905811 
 - Dyonathan Araújo - 31932665
 - Lucas do Carmo - 31932241
-- Victor Hugo - 
+- Victor Hugo Fozzati Pastore - 31861954
 
