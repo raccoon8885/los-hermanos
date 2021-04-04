@@ -1,5 +1,7 @@
-# Especificação do Sistema Web para Recomendação de Filmes, Séries e Livros - Compass
-
+---
+title: "Especificação do Sistema Aplicativo para Recomendação de Filmes, Séries e Livros"
+author: "Prática Profissional em ADS"
+---
 
 **Índice**
 <details closed="closed">
