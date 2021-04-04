@@ -33,7 +33,7 @@
               <li><a href="#753-Rejeita-amigo">Rejeita amigo</a></li>
 	      <li><a href="#76-Gerente">Gerente</a></li>
 	      <li><a href="#77-Pesquisa-membro">Pesquisa membro</a></li>
-	      <li><a href="#78-pesquisa-titulo">pesquisa titulo</a></li>
+	      <li><a href="#78-pesquisa-titulo">Pesquisa titulo</a></li>
             </ul>
 	      <li><a href="#8-Diagrama-de-domínio">Diagrama de domínio</a></li>
     	      <li><a href="#9-Diagrama-de-Classes">Diagrama de Classes</a></li>
