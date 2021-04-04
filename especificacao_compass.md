@@ -12,7 +12,11 @@
     <li><a href="#6-Casos-de-uso">Casos de uso</a></li>
       <ul>
         <li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
-
+	<li><a href="#62-Efetuar-login">Efetuar login</a></li>
+	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
+	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
+	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
+	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>      
 
 # 1. Introdução
 Este documento visa a especificação de requisitos para o sistema Compass, o qual o principal objetivo é a recomendação 
