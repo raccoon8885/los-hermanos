@@ -105,7 +105,7 @@ Cenario: Cadastrar novo membro
 
 **Objetivo:** Criar conta no sistema para membro.
 
-**Atores:** Membro não registrado e sistema.
+**Atores:** Membro não registrado 
 
 **Pré-condições:** O ator inserir seus dados pessoais corretamente. (Nome completo, data de nascimento, país onde reside, nome de usuário e senha)
 
