@@ -1,4 +1,4 @@
-# Especificação do Sistema Web para Recomendação de Filmes, Séries e Livros - Compass
+   # Especificação do Sistema Web para Recomendação de Filmes, Séries e Livros-Compass
 
 **Índice**
 <details closed="closed">
