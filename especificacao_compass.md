@@ -97,45 +97,43 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 | 13 | O sistema deverá ter interface com Uma base de dados relacional para informações do cliente. Uma base de dados relacional para informações dos livros, filmes e séries.|
 
 #  6. Casos de uso
-Cenario: cadastrar novo membro
+Cenario: Cadastrar novo membro
 
 ![image](https://user-images.githubusercontent.com/38226976/113227930-2501dd80-926a-11eb-9732-172cce7a1296.png)
 
-
-
 ## 6.1 Cadastrar novo membro
 
-**Objetivo:** Criar conta no sistema para usuário.
+**Objetivo:** Criar conta no sistema para membro.
 
 **Atores:** Membro não registrado e sistema.
 
 **Pré-condições:** O ator inserir seus dados pessoais corretamente. (Nome completo, data de nascimento, país onde reside, nome de usuário e senha)
 
-**Pós-condições:** Usuário acessa a conta pessoal criada.
+**Pós-condições:** Membro acessa a conta pessoal criada.
 
 **Fluxo principal:**
 
-     1. O usuário decide se cadastrar no sistema.
+     1. O Membro decide se cadastrar no sistema.
      2. O sistema solicita os dados pessoais para realizar o cadastro.
-     3. O usuário insere os dados.
-     4. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e cadastra o usuário.
+     3. O membro insere os dados.
+     4. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e cadastra o membro.
           
 **Fluxo alternativo:**
 
      Fluxo alternativo a.  
      
-          1. O usuário decide se cadastrar no sistema.           
+          1. O membro decide se cadastrar no sistema.           
           2. O sistema solicita os dados pessoais para realizar o cadastro.
-          3. Usuário insere algum dado incompatível com o campo.
+          3. Membro insere algum dado incompatível com o campo.
           4. O sistema informa que não é possível inserir aquele tipo de dado.
 
      Fluxo alternativo b.
 
-          1. O usuário decide se cadastrar no sistema.
+          1. O membro decide se cadastrar no sistema.
           2. O sistema solicita os dados pessoais para realizar o cadastro.
-          3. O usuário insere os dados.
-          4. O sistema identifica que já existe um usuário com aquele nome de usuário inserido.
-          5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o usuário escolha outro nome de usuário.
+          3. O membro insere os dados.
+          4. O sistema identifica que já existe um membro com aquele nome de membro inserido.
+          5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o membro escolha outro nome de usuário.
 Cenario: Efetuar login
 
 ![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113448534-66ad9800-93d2-11eb-8b6b-ceca8db3539e.jpg)
