@@ -13,11 +13,35 @@
       <ul>
         <li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
 	<li><a href="#62-Efetuar-login">Efetuar login</a></li>
-	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
-	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
-	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
-	<li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>      
-
+	<li><a href="#63-Avaliar-título">Avaliar titulo</a></li>
+	<li><a href="#64-Cadastrar-título">Cadastrar titulo</a></li>
+	<li><a href="#65-consultar-relatorio">Cosultar relatorio</a></li>
+	<li><a href="#66-Adicionar-usuário-como-amigo"> Adicionar usuário como amigo</a></li>
+	<li><a href="#67-Pesquisar-membro">Pesquisar membro</a></li> 
+	<li><a href="#68-Pesquisar-títuloo">Pesquisar título</a></li> 
+       </ul>
+	  <li><a href="#7-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
+	  <ul>
+	      <li><a href="#71-Membro-não-castrado"> Membro não castrado</a></li>
+       	      <li><a href="#72-Login"> Login</a></li>
+       	      <li><a href="#731-AddFilme">Add Filme</a></li>
+      	      <li><a href="#732-AddSerie">Add Serie</a></li>
+              <li><a href="#733-AddLivro">Add Livro</a></li>
+       	      <li><a href="#741-Fazer-avaliação">Fazer avaliação </a></li>
+       	      <li><a href="#742-Deixar-like">Deixar like</a></li>
+       	      <li><a href="#751-Solicita-Amigo">Solicita amigo</a></li>
+      	      <li><a href="#752-Aceita-amigo">Aceita amigo</a></li>
+              <li><a href="#753-Rejeita-amigo">Rejeita amigo</a></li>
+	      <li><a href="#76-Gerente">Gerente</a></li>
+	      <li><a href="#77-Pesquisa-membro">Pesquisa membro</a></li>
+	      <li><a href="#78-pesquisa-titulo">pesquisa titulo</a></li>
+            </ul>
+	      <li><a href="#8-Diagrama-de-domínio">Diagrama de domínio</a></li>
+    	      <li><a href="#9-Diagrama-de-Classes">Diagrama de Classes</a></li>
+              <li><a href="#10-Wireframes">Wireframes</a></li>
+</ol>
+</details>	  
+	  
 # 1. Introdução
 Este documento visa a especificação de requisitos para o sistema Compass, o qual o principal objetivo é a recomendação 
 de filmes, séries e livros pelos usuários cadastrados, promovendo o engajamento social através comentários, sugestões, 
@@ -259,7 +283,7 @@ cenario: Manter amizade
 
 ![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
 
-## 6.6 – Adicionar usuário como amigo
+## 6.6 Adicionar usuário como amigo
 
 
 **Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
@@ -352,67 +376,67 @@ cenario: pesquisar titulo
        5.Sistema informa que não foram encontrados resultados como aquele.
 
           
-# 7. Diagrama de Sequência
+# 7 Diagrama de Sequência
 
 
 
-   **7.1 Membro não castrado** 
+   ## 7.1 Membro não castrado
 
 ![diagrama de sequencia membro não registrado5](https://user-images.githubusercontent.com/61236154/113491187-47336f80-94a5-11eb-8045-da90cc49bf08.jpeg)
 
-   **7.2 Login**
+   ## 7.2 Login
 
 ![diagrama de sequencia fazer login 6](https://user-images.githubusercontent.com/61236154/113491223-806bdf80-94a5-11eb-83f8-e1cebd6915b2.jpeg)
 
-   **7.3.1 AddFilme**
+   ## 7.3.1 AddFilme
 
 ![Diagrama em branco addfilme2](https://user-images.githubusercontent.com/61236154/113491235-a1343500-94a5-11eb-881d-0eb7b800c9f9.jpeg)
 
-   **7.3.2 AddSerie**
+   ## 7.3.2 AddSerie
 
 ![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491261-d6408780-94a5-11eb-9303-c0c109dfeed4.jpeg)
 
-   **7.3.3 AddLivro**
+   ## 7.3.3 AddLivro**
 
 ![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491270-dd679580-94a5-11eb-9582-ac3869d04ed5.jpeg)
 
-   **7.4.1 Fazer avaliação**
+   ## 7.4.1 Fazer avaliação
 
 ![Diagrama em branco seuqencia avaliação](https://user-images.githubusercontent.com/61236154/113491315-30d9e380-94a6-11eb-826d-858ee7619230.jpeg)
 
-   **7.4.2 Deixa like**
+   ## 7.4.2 Deixa like
 
 ![Diagrama em branco sequencia avalia like](https://user-images.githubusercontent.com/61236154/113491331-4e0eb200-94a6-11eb-84a6-8914b1780893.jpeg)
 
-   **7.5.1 Solicita Amigo**
+   ## 7.5.1 Solicita Amigo
 ![diagrama de sequencia solicita amigo1](https://user-images.githubusercontent.com/61236154/113491350-70083480-94a6-11eb-911c-3ab21c3fbbed.jpeg)
 
-   **7.5.2 Aceita amigo**
+   ## 7.5.2 Aceita amigo
 ![diagrama de sequencia addamigo1](https://user-images.githubusercontent.com/61236154/113491360-8615f500-94a6-11eb-8422-ddba4f9c7801.jpeg)
 
-   **7.5.3 Rejeita amigo**
+   ## 7.5.3 Rejeita amigo
 
 ![amigo rejeitado1](https://user-images.githubusercontent.com/61236154/113491370-a04fd300-94a6-11eb-9994-5a6dfb2ed4ba.jpeg)
 
-   **7.6 Gerente**
+   ## 7.6 Gerente
 
 ![diagrama de sequencia gerente 4](https://user-images.githubusercontent.com/61236154/113491385-c1182880-94a6-11eb-9ccd-cb5f611da6da.jpeg)
 
-   **7.7 Pesquisa membro**
+   ## 7.7 Pesquisa membro
    
    ![Diagrama_pesquisar_membro](https://user-images.githubusercontent.com/61236154/113491658-ddb56000-94a8-11eb-8166-34d50bd4ac62.jpeg)
 
-   **7.8 pesquisa titulo**
+   ## 7.8 pesquisa titulo
    
    ![Diagrama_pesquisar_titulo](https://user-images.githubusercontent.com/61236154/113491660-e6a63180-94a8-11eb-8b77-2fc3cbca118c.jpeg)
 
 
-# 8. Diagrama de domínio
+# 8 Diagrama de domínio
 ![diagramaDeDominio_R002](https://user-images.githubusercontent.com/61977035/113274722-628b5880-92b4-11eb-8bcf-d5b81c36d0f2.png)
 
-# 9. Diagrama de Classes
+# 9 Diagrama de Classes
 ![diagramaDeClasse_R002](https://user-images.githubusercontent.com/61977035/113002383-16bba080-9148-11eb-8ff8-023b447820cb.jpeg)
 
-# 10. Wireframes
+# 10 Wireframes
 
 
