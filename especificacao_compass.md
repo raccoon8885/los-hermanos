@@ -132,7 +132,7 @@ Cenario: Cadastrar novo membro
           1. O membro decide se cadastrar no sistema.
           2. O sistema solicita os dados pessoais para realizar o cadastro.
           3. O membro insere os dados.
-          4. O sistema identifica que já existe um membro com aquele nome de membro inserido.
+          4. O sistema identifica que já existe um membro com aquele nome de usuário inserido.
           5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o membro escolha outro nome de usuário.
 Cenario: Efetuar login
 
@@ -141,19 +141,19 @@ Cenario: Efetuar login
 ## 6.2 Efetuar login
 
 
-**Objetivo:** Usuário acessar o aplicativo com sua conta.
+**Objetivo:** Membro acessar o aplicativo com sua conta.
 
-**Atores:** Usuário e sistema.
+**Atores:** Membro.
 
-**Pré-condições:** Usuário ser cadastrado no sistema.
+**Pré-condições:** Membro ser cadastrado no sistema.
 
 **Pós-condições:** Acessar a área do aplicativo para membros.
 
 **Fluxo principal:**
 
-     1. Usuário decide fazer login no sistema.
+     1. Membro decide fazer login no sistema.
      2. Sistema solicita nome de usuário e senha.
-     3. Usuário insere nome de usuário e senha.
+     3. Membro insere nome de usuário e senha.
      4. Sistema verifica dados inseridos.
      5. Usuário acessa a área do aplicativo para membros.
 
@@ -161,9 +161,9 @@ Cenario: Efetuar login
 
      Fluxo alternativo a.
 
-          1. Usuário decide fazer login no sistema.
+          1. Membro decide fazer login no sistema.
           2. Sistema solicita nome de usuário e senha.
-          3. Usuário insere nome de usuário e senha.
+          3. Membro insere nome de usuário e senha.
           4. Sistema identifica dados incorretos inseridos.
           5. Retorna ao passo 2 do fluxo principal.          
 
@@ -173,43 +173,43 @@ Cenario: Efetuar login
 ## 6.3 Avaliar título
 
 
-**Objetivo:** Inserir avaliação de título para que outros usuário possam ler.
+**Objetivo:** Inserir avaliação de título para que outros membro possam ler.
 
-**Atores:** Membro cadastrado, sistema e administrador.
+**Atores:** Membro cadastrado e administrador.
 
-**Pré-condições:** Usuário ter selecionado algum título no aplicativo para avaliar.
+**Pré-condições:** Membro ter selecionado algum título no aplicativo para avaliar.
 
 **Pós-condições:** Avaliação sob avaliação do administrador.
 
 **Fluxo principal:**
 
-     1. Usuário decide avaliar título.
-     2. Usuário digita sua avaliação.
-     3. Usuário submete sua avaliação.
+     1. Membro decide avaliar título.
+     2. Membro digita sua avaliação.
+     3. Membro submete sua avaliação.
      4. Sistema armazena avaliação.
      5. Sistema envia avaliação a administrador.
      6. Administrador aprova avaliação.
      7. Sistema deixa visível avaliação na página do título avaliado.
-     8. Sistema notifica usuário.
+     8. Sistema notifica membro.
 
 **Fluxo alternativo:**
 
      Fluxo alternativo a.
 
-          1. Usuário decide avaliar título.
-          2. Usuário digita uma quantidade de caracteres maior que o permitido.
+          1. Membro decide avaliar título.
+          2. Membro digita uma quantidade de caracteres maior que o permitido.
           3. Sistema informa que a avaliação está grande demais.
           4. Segue no passo 2 do fluxo principal.
 
      Fluxo alternativo b.
 
-          1. Usuário decide avaliar título.
-          2. Usuário digita sua avaliação.
-          3. Usuário submete sua avaliação.
+          1. Membro decide avaliar título.
+          2. Membro digita sua avaliação.
+          3. Membro submete sua avaliação.
           4. Sistema armazena avaliação.
           5. Sistema envia avaliação a administrador.
-          6. Administrador reprova avaliação do usuário sobre o título.
-          7. Sistema notifica usuário.
+          6. Administrador reprova avaliação do membro sobre o título.
+          7. Sistema notifica membro.
  
  cenario:castrar titulo
  ![UseCaseDiagram2](https://user-images.githubusercontent.com/61236154/113448582-82b13980-93d2-11eb-8a30-f598477675b1.jpg)
@@ -218,7 +218,7 @@ Cenario: Efetuar login
 
 **Objetivo:** Inserir um título não existente ainda no sistema para que outros usuários possam visualizar e avaliar.
 
-**Atores:** Membro, sistema e administrador.
+**Atores:** Membro e administrador.
 
 **Pré-condições:** Estar logado no sistema.
 
@@ -226,33 +226,33 @@ Cenario: Efetuar login
 
 **Fluxo principal:**
 
-     1.Usuário decide cadastrar título.
+     1.Membro decide cadastrar título.
      2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
-     3.Usuário insere dados do título.
-     4.Usuário submete dados do título.
+     3.Memebro insere dados do título.
+     4.Membro submete dados do título.
      5.Sistema armazena dados e envia a administrador.
      6.Administrador aprova cadastro de título.
-     7.Sistema notifica usuário.
+     7.Sistema notifica membro.
 
 **Fluxo alternativo:**
 
 	Fluxo alternativo a.
 
-      1.Usuário decide cadastrar título.
+      1.Memebro decide cadastrar título.
       2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
-      3.Usuário insere dados do título.
+      3.Membro insere dados do título.
       4.Sistema identifica dados incompatíveis com os campos.
       5.Retorna ao passo 2.
 
 Fluxo alternativo b.
 
-      1.Usuário decide cadastrar título.
+      1.Membro decide cadastrar título.
       2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
-      3.Usuário insere dados do título.
-      4.Usuário submete dados do título.
+      3.Membro insere dados do título.
+      4.Membro submete dados do título.
       5.Sistema armazena dados e envia a administrador.
       6.Administrador reprova cadastro de título.
-      7.Sistema notifica usuário.
+      7.Sistema notifica membro.
 	
 cenario:Consultar relatório
 ![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448631-952b7300-93d2-11eb-88c6-07c7ede65bd9.jpg)
@@ -261,7 +261,7 @@ cenario:Consultar relatório
 
 **Objetivo:** Manter administrador informado sobre ações e conteúdo no sistema.
 
-**Atores:** Sistema e administrador.
+**Atores:** Administrador.
 
 **Pré-condições:** Administrador estar logado no sistema.
 
@@ -285,7 +285,7 @@ cenario: Manter amizade
 
 **Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
 
-**Atores:** Membros e sistema.
+**Atores:** Membros.
 
 **Pré-condições:** Acessar página do perfil do outro usuário e usuário ainda não serem amigos na rede.
 
@@ -293,8 +293,8 @@ cenario: Manter amizade
 
 **Fluxo principal:**
 
-     1.	Usuário decide adicionar outro membro como amigo.
-     2.	Usuário submete solicitação de amizade para o outro membro.
+     1.	Membro decide adicionar outro membro como amigo.
+     2.	Membro submete solicitação de amizade para o outro membro.
      3.	Sistema envia a solicitação ao outro membro.
      4.	Outro membro aceita solicitação de amizade.
      5.	Sistema notifica membro que enviou solicitação.
@@ -303,8 +303,8 @@ cenario: Manter amizade
 
 	Fluxo alternativo a.
 
-          1.Usuário decide adicionar outro membro como amigo.
-          2.Usuário submete solicitação de amizade para o outro membro.
+          1.Membro decide adicionar outro membro como amigo.
+          2.Membro submete solicitação de amizade para o outro membro.
           3.Sistema envia a solicitação ao outro membro.
           4.Outro membro recusa solicitação de amizade.
 cenario: pesquisar membro 
@@ -318,7 +318,7 @@ cenario: pesquisar membro
 
 **Objetivo:** Encontrar outros membros cadastrados.
 
-**Atores:** Usuário e sistema.
+**Atores:** Membro.
 
 **Pré-condições:** Estar logado no sistema.
 
@@ -326,8 +326,8 @@ cenario: pesquisar membro
 
 **Fluxo principal:**
 
-      1.Usuário decide pesquisar outro membro cadastrado.
-      2.Usuário digita pelo nome na barra de pesquisa.
+      1.Membro decide pesquisar outro membro cadastrado.
+      2.Membro digita pelo nome na barra de pesquisa.
       3.Sistema consulta nome como aquele digitado.
       4.Sistema apresenta resultados.
 
@@ -335,8 +335,8 @@ cenario: pesquisar membro
 
 	Fluxo alternativo a.
 
-      1.Usuário decide pesquisar outro membro cadastrado.
-      2.Usuário digita pelo nome na barra de pesquisa.
+      1.Membro decide pesquisar outro membro cadastrado.
+      2.Membro digita pelo nome na barra de pesquisa.
       3.Sistema consulta nome como aquele digitado.
       4.Sistema não encontra resultados.
       5.Sistema informa que não foram encontrados resultados.
@@ -349,7 +349,7 @@ cenario: pesquisar titulo
 
 **Objetivo:** Encontrar títulos cadastrados.
 
-**Atores:** Usuário e sistema.
+**Atores:** Membro.
 
 **Pré-condições:** Estar logado no sistema.
 
@@ -357,8 +357,8 @@ cenario: pesquisar titulo
 
 **Fluxo principal:**
 
-      1.Usuário decide buscar por um título.
-      2.Usuário digita na barra de pesquisa informação sobre o título.
+      1.Membro decide buscar por um título.
+      2.Membro digita na barra de pesquisa informação sobre o título.
       3.Sistema realiza busca por título contendo uma informação como aquela.
       4.Sistema exibe resultados.
 
@@ -366,8 +366,8 @@ cenario: pesquisar titulo
 
 	Fluxo alternativo a.
 
-       1.Usuário decide buscar por um título. 
-       2.Usuário digita na barra de pesquisa informação sobre o título.
+       1.Membro decide buscar por um título. 
+       2.Membro digita na barra de pesquisa informação sobre o título.
        3.Sistema realiza busca por título contendo uma informação como aquela.
        4.Sistema não encontra resultado.
        5.Sistema informa que não foram encontrados resultados como aquele.
