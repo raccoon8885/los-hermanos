@@ -33,7 +33,7 @@
               <li><a href="#753-Rejeita-amigo">Rejeita amigo</a></li>
 	      <li><a href="#76-Gerente">Gerente</a></li>
 	      <li><a href="#77-Pesquisa-membro">Pesquisa membro</a></li>
-	      <li><a href="#78-pesquisa-titulo">Pesquisa titulo</a></li>
+	      <li><a href="#78-pesquisa-titulo">Pesquisa título</a></li>
             </ul>
 	      <li><a href="#8-Diagrama-de-domínio">Diagrama de domínio</a></li>
     	      <li><a href="#9-Diagrama-de-Classes">Diagrama de Classes</a></li>
@@ -375,7 +375,7 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 
 ![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491261-d6408780-94a5-11eb-9303-c0c109dfeed4.jpeg)
 
-   ## 7.3.3 AddLivro**
+   ## 7.3.3 AddLivro
 
 ![Diagrama em branco addLivro2](https://user-images.githubusercontent.com/61236154/113491270-dd679580-94a5-11eb-9582-ac3869d04ed5.jpeg)
 
@@ -383,7 +383,7 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 
 ![Diagrama em branco seuqencia avaliação](https://user-images.githubusercontent.com/61236154/113491315-30d9e380-94a6-11eb-826d-858ee7619230.jpeg)
 
-   ## 7.4.2 Deixa like
+   ## 7.4.2 Deixar like
 
 ![Diagrama em branco sequencia avalia like](https://user-images.githubusercontent.com/61236154/113491331-4e0eb200-94a6-11eb-84a6-8914b1780893.jpeg)
 
@@ -405,7 +405,7 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
    
    ![Diagrama_pesquisar_membro](https://user-images.githubusercontent.com/61236154/113491658-ddb56000-94a8-11eb-8166-34d50bd4ac62.jpeg)
 
-   ## 7.8 pesquisa titulo
+   ## 7.8 Pesquisa título
    
    ![Diagrama_pesquisar_titulo](https://user-images.githubusercontent.com/61236154/113491660-e6a63180-94a8-11eb-8b77-2fc3cbca118c.jpeg)
 
