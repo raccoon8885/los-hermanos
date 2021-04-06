@@ -98,7 +98,7 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 
 #  6. Casos de uso
 
-## 6.1 Cenário Cadastrar novo membro
+## 6.1 Cenário: Cadastrar novo membro
 ![image](https://user-images.githubusercontent.com/38226976/113227930-2501dd80-926a-11eb-9732-172cce7a1296.png)
 
 **Objetivo:** Criar conta no sistema para membros.
