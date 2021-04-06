@@ -327,7 +327,7 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 
 ## 6.8 Cenário: Pesquisar título
 
-![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491138-d4c28f80-94a4-11eb-8884-74c528e9b21c.jpg) 
+![Screen Shot 2021-04-05 at 23 03 35](https://user-images.githubusercontent.com/52939868/113648668-595b0c80-9663-11eb-9ea9-12a5a0257519.png)
 
 **Objetivo:** Encontrar títulos cadastrados.
 
