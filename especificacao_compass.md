@@ -44,34 +44,34 @@
 # 1. Introdução
 Este documento visa a especificação de requisitos para o sistema Compass, o qual o principal objetivo é a recomendação 
 de filmes, séries e livros pelos usuários cadastrados, promovendo o engajamento social através comentários, sugestões, 
-avaliações e interações. Deste modo, o sistema servirá como uma especie de rede social, para que membros possam 
-compartilhar seus interesses e descobrir novas opções de entreterimento e pessoas que partilham dos mesmos interesses. 
+avaliações e interações. Deste modo, o sistema servirá como uma espécie de rede social, para que membros possam 
+compartilhar seus interesses e descobrir novas opções de entretenimento e pessoas que partilham dos mesmos interesses. 
 
 # 2. Escopo do projeto
 O escopo do projeto é um sistema web de recomendação de filmes, séries e livros, com um viés de rede social, o qual os 
 usuários poderam interagir entre si, com um design responsivo e leve, podendo ser acessado através de qualquer navegador,
-seja por um dispostivo movél ou desktop. 
+seja por um dispositivo móvel ou desktop. 
 
-O sistema web será desenvolvido em python, HTML e CSS, terá seus dados persistidos por um banco de dados relacional e será implementado por um provedor de serviços da internet em nuvém. Em relação a segurança do site, o usuário sera protegido por uma senha, criada pelo próprio, a qual sera armazenda de modo criptografada em nosso banco de dados. 
+O sistema web será desenvolvido em python, HTML e CSS, terá seus dados persistidos por um banco de dados relacional e será implementado por um provedor de serviços da internet em nuvem. Em relação a segurança do site, o usuário será protegido por uma senha, criada pelo próprio, a qual será armazenada de modo criptografada em nosso banco de dados. 
 
 # 3. Interessados
 Aqueles que irão se beneficiar diretamente e aqueles que serão afetados pelo novo sistema:
 
 Clientes: Conseguirão navegar pelo site para comentar, sugerir e avaliar filmes, séries e livros, além de interagir com
-outros usuários da plataforma sobre os conteudos postados. 
+outros usuários da plataforma sobre os conteúdos postados. 
 
-Desenvolvedores: Seram responsável pela criação do sistema, do Front-End até o Back-End. Garantindo a melhor experiência possivel para o usuário. 
+Desenvolvedores: Serão responsáveis pela criação do sistema, do Front-End até o Back-End. Garantindo a melhor experiência possível para o usuário. 
 
-Adminstrador: Será responsável por validar e gerenciar o sistema. 
+Administrador: Será responsável por validar e gerenciar o sistema. 
 
-Criadores de conteúdo: Poderam acessar as avaliações, comentários e críticas sobre os conteudos discutidos pelos usuários na plataforma. 
+Criadores de conteúdo: Poderão acessar as avaliações, comentários e críticas sobre os conteúdos discutidos pelos usuários na plataforma. 
 
 # 4. Requisitos funcionais 
 |RF |  Descrição  |
 | :---: | ------------------- |
 |  1 | O sistema deverá permitir que os usuários criem e entrem com uma conta própria cadastrada com nome de usuário e senha.|
 |  2 | O sistema deverá permitir que os usuários encontrem títulos de filmes, séries e livros assim como seu ano de lançamento, sinopse, gênero, duração, direção e elenco              principal.|
-|  3 | O sistema deverá permitir que usuários acessem e escrevam avaliações de filmes, séries e livros.|
+|  3 | O sistema deverá permitir que usuários acessem e comentem avaliações de filmes, séries e livros.|
 |  4 | O sistema permitirá que os usuários alterem ou excluam suas próprias avaliações.|
 |  5 | O sistema deverá permitir que usuários adicionem títulos na plataforma, sob aprovação dos administradores.
 |  6 | O sistema deverá permitir que os usuários configurem seu perfil como público ou privado.|
@@ -86,7 +86,7 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 | 2 | O sistema deve funcionar 100% online.|
 | 3 | O sistema terá aplicativo, será apenas acessado pelo navegador.|
 | 4 | O sistema web será desenvolvido em Python, Java e CSS.|
-| 5 | O número de páginas web pelas quais o usuário precisa navegar para acessar a informação de livros, filmes e séries será de no máximo 2.|
+| 5 | O número de páginas web pelas quais o usuário precisa navegar para acessar a informação de livros, filmes e séries será de no máximo 3.|
 | 6 | O sistema deverá ser capaz de suportar 1000 usuários simultâneos.|
 | 7 | O Sistema deverá carregar a página em no máximo 5  segundos.|
 | 8 | O tempo médio para baixar e visualizar um whitepaper em uma conexão de 1Mbps não deverá exceder 10 segundos.|
@@ -94,16 +94,14 @@ Criadores de conteúdo: Poderam acessar as avaliações, comentários e crítica
 | 10 | Os dados de transação devem ser transmitidos de forma criptografada.|
 | 11 | O sistema não deve permitir que usuário cadastre o mesmo filme, livro e série .|
 | 12 | O sistema deverá disponibilizar uma página web que explica como navegar pelo site. A página deverá ser customizada com base nas páginas que o usuário pode acessar. Esta página de ajuda deverá ser acessível a partir de todas as outras páginas.|
-| 13 | O sistema deverá ter interface com Uma base de dados relacional para informações do cliente. Uma base de dados relacional para informações dos livros, filmes e séries.|
+| 13 | O sistema deverá ter interface com uma base de dados relacional para informações do cliente. Uma base de dados relacional para informações dos livros, filmes e séries.|
 
 #  6. Casos de uso
-Cenario: Cadastrar novo membro
 
+## 6.1 Cenário: Cadastrar novo membro
 ![image](https://user-images.githubusercontent.com/38226976/113227930-2501dd80-926a-11eb-9732-172cce7a1296.png)
 
-## 6.1 Cadastrar novo membro
-
-**Objetivo:** Criar conta no sistema para membro.
+**Objetivo:** Criar conta no sistema para membros.
 
 **Atores:** Membro não registrado 
 
@@ -116,7 +114,7 @@ Cenario: Cadastrar novo membro
      1. O Membro decide se cadastrar no sistema.
      2. O sistema solicita os dados pessoais para realizar o cadastro.
      3. O membro insere os dados.
-     4. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e cadastra o membro.
+     4. O sistema verifica que não existe um cadastro com aquele mesmo nome de usuário e efetua o cadastro do membro.
           
 **Fluxo alternativo:**
 
@@ -134,12 +132,9 @@ Cenario: Cadastrar novo membro
           3. O membro insere os dados.
           4. O sistema identifica que já existe um membro com aquele nome de usuário inserido.
           5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o membro escolha outro nome de usuário.
-Cenario: Efetuar login
 
+## 6.2 Cenário: Efetuar login
 ![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113448534-66ad9800-93d2-11eb-8b6b-ceca8db3539e.jpg)
-
-## 6.2 Efetuar login
-
 
 **Objetivo:** Membro acessar o aplicativo com sua conta.
 
@@ -167,13 +162,10 @@ Cenario: Efetuar login
           4. Sistema identifica dados incorretos inseridos.
           5. Retorna ao passo 2 do fluxo principal.          
 
- centario: Avavaliar titulo
+## 6.3 Cenário: Avaliar título
  ![UseCaseDiagram1](https://user-images.githubusercontent.com/61236154/113448548-74631d80-93d2-11eb-87ca-8408932b4795.jpg)
 
-## 6.3 Avaliar título
-
-
-**Objetivo:** Inserir avaliação de título para que outros membro possam ler.
+**Objetivo:** Inserir avaliação de título para que outros membros possam ler.
 
 **Atores:** Membro cadastrado e administrador.
 
@@ -211,10 +203,9 @@ Cenario: Efetuar login
           6. Administrador reprova avaliação do membro sobre o título.
           7. Sistema notifica membro.
  
- cenario:castrar titulo
+## 6.4 Cenário: Cadastrar título
+
  ![UseCaseDiagram2](https://user-images.githubusercontent.com/61236154/113448582-82b13980-93d2-11eb-8a30-f598477675b1.jpg)
- 
-## 6.4  Cadastrar título
 
 **Objetivo:** Inserir um título não existente ainda no sistema para que outros usuários possam visualizar e avaliar.
 
@@ -228,7 +219,7 @@ Cenario: Efetuar login
 
      1.Membro decide cadastrar título.
      2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
-     3.Memebro insere dados do título.
+     3.Membro insere dados do título.
      4.Membro submete dados do título.
      5.Sistema armazena dados e envia a administrador.
      6.Administrador aprova cadastro de título.
@@ -238,13 +229,13 @@ Cenario: Efetuar login
 
 	Fluxo alternativo a.
 
-      1.Memebro decide cadastrar título.
+      1.Membro decide cadastrar título.
       2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
       3.Membro insere dados do título.
       4.Sistema identifica dados incompatíveis com os campos.
       5.Retorna ao passo 2.
 
-Fluxo alternativo b.
+	Fluxo alternativo b.
 
       1.Membro decide cadastrar título.
       2.Sistema solicita dados do título. (Tipo, nome, gênero, duração, elenco, diretor e ano de lançamento)
@@ -253,11 +244,10 @@ Fluxo alternativo b.
       5.Sistema armazena dados e envia a administrador.
       6.Administrador reprova cadastro de título.
       7.Sistema notifica membro.
-	
-cenario:Consultar relatório
-![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448631-952b7300-93d2-11eb-88c6-07c7ede65bd9.jpg)
 
-## 6.5 Consultar relatórios
+## 6.5 Cenário: Consultar relatórios
+
+![UseCaseDiagram3](https://user-images.githubusercontent.com/61236154/113448631-952b7300-93d2-11eb-88c6-07c7ede65bd9.jpg)
 
 **Objetivo:** Manter administrador informado sobre ações e conteúdo no sistema.
 
@@ -276,18 +266,15 @@ cenario:Consultar relatório
 
 **Fluxo alternativo:** Não possui.
 
-cenario: Manter amizade 
+## 6.6 Cenário: Adicionar usuário como amigo
 
 ![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
-
-## 6.6 Adicionar usuário como amigo
-
 
 **Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
 
 **Atores:** Membros.
 
-**Pré-condições:** Acessar página do perfil do outro usuário e usuário ainda não serem amigos na rede.
+**Pré-condições:** Acessar página do perfil de outro usuário e os usuários ainda não serem amigos na rede.
 
 **Pós-condições:** Adicionado outro usuário como amigo.
 
@@ -307,11 +294,8 @@ cenario: Manter amizade
           2.Membro submete solicitação de amizade para o outro membro.
           3.Sistema envia a solicitação ao outro membro.
           4.Outro membro recusa solicitação de amizade.
-cenario: pesquisar membro 
 
-![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
-
-## 6.7 Pesquisar membro
+## 6.7 Cenário: Pesquisar membro
 
 ![UsecaseDigrama 7](https://user-images.githubusercontent.com/61236154/113491034-37fff200-94a4-11eb-8cdb-dab61e147274.jpg)
 
@@ -340,12 +324,10 @@ cenario: pesquisar membro
       3.Sistema consulta nome como aquele digitado.
       4.Sistema não encontra resultados.
       5.Sistema informa que não foram encontrados resultados.
-   
-cenario: pesquisar titulo
+
+## 6.8 Cenário: Pesquisar título
 
 ![UseCaseDiagram 8](https://user-images.githubusercontent.com/61236154/113491138-d4c28f80-94a4-11eb-8884-74c528e9b21c.jpg) 
-
-## 6.8 – Pesquisar título
 
 **Objetivo:** Encontrar títulos cadastrados.
 
@@ -435,27 +417,38 @@ cenario: pesquisar titulo
 # 9 Diagrama de Classes
 ![diagramaDeClasse_R005](https://user-images.githubusercontent.com/61977035/113518403-807ae680-955c-11eb-8643-7963c21661bd.png)
 
-
-
-
-
 # 10 Wireframes
 
-![image](https://user-images.githubusercontent.com/61236154/113518438-bfa93780-955c-11eb-89d8-b499a29b1935.png)
+## 10.1 Tela de login
+![login](https://user-images.githubusercontent.com/52939868/113647493-4c3d1e00-9661-11eb-8cc4-acbff8d149b8.png)
 
-![image](https://user-images.githubusercontent.com/61236154/113518454-d64f8e80-955c-11eb-8122-059cfd71f680.png)
+## 10.2 Tela de cadastro do membro
+![cadastro_perfil](https://user-images.githubusercontent.com/52939868/113647524-5a8b3a00-9661-11eb-8c19-8d3383b75210.png)
 
-![image](https://user-images.githubusercontent.com/61236154/113518465-e7989b00-955c-11eb-833a-5791e6a2116e.png)
+## 10.3 Tela inicial (membro logado)
+![tela_inicial_usuario_logado](https://user-images.githubusercontent.com/52939868/113647553-6d057380-9661-11eb-84a4-be8f55b35059.png)
 
-![image](https://user-images.githubusercontent.com/61236154/113518484-01d27900-955d-11eb-8367-ffa466fc6ed8.png)
+## 10.4 Tela inicial (membro não logado)
+![tela_inicial_usuario_nao_logado](https://user-images.githubusercontent.com/52939868/113647623-90302300-9661-11eb-94a0-7572b28f5fd1.png)
 
-![image](https://user-images.githubusercontent.com/61236154/113518499-1adb2a00-955d-11eb-9a64-9446155912a1.png)
+## 10.5 Tela de cadastro dos conteúdos 
+![cadastro_item](https://user-images.githubusercontent.com/52939868/113647699-b1910f00-9661-11eb-9138-4610e507a09c.png)
 
-![image](https://user-images.githubusercontent.com/61236154/113518512-24649200-955d-11eb-910a-8435dadf283d.png)
+## 10.6 Tela do Conteúdo
+![Pagina_item](https://user-images.githubusercontent.com/52939868/113647830-ed2bd900-9661-11eb-8a22-3f51c15502bb.png)
 
-![image](https://user-images.githubusercontent.com/61236154/113518522-2dedfa00-955d-11eb-9c57-c7a736771abb.png)
+## 10.7 Tela do perfil
+![tela_perfil](https://user-images.githubusercontent.com/52939868/113647756-c7063900-9661-11eb-93b5-ef85e51fe3a7.png)
 
-![image](https://user-images.githubusercontent.com/61236154/113518527-39412580-955d-11eb-8c60-d6d1ad6e750e.png)
+## 10.8 Tela do administrador
+![tela_administrador](https://user-images.githubusercontent.com/52939868/113647853-fd43b880-9661-11eb-9a5b-c67d4285b819.png)
+
+
+
+
+
+ 
+
 
 
 
