@@ -10,14 +10,14 @@
     <li><a href="#5-Requisitos-não-funcionais">Requisitos Não Funcionais</a></li>
     <li><a href="#6-Casos-de-uso">Casos de uso</a></li>
       <ul>
-        <li><a href="#61-cadastrar-novo-membro">Cadastrar novo membro</a></li>
-	<li><a href="#62-Efetuar-login">Efetuar login</a></li>
-	<li><a href="#63-Avaliar-título">Avaliar titulo</a></li>
+        <li><a href="#61-Cenário:-Cadastrar-novo-membro">Cadastrar novo membro</a></li>
+	<li><a href="#62-Cenário:-Efetuar-login">Efetuar login</a></li>
+	<li><a href="#63-Cenário:-Avaliar-título">Avaliar titulo</a></li>
 	<li><a href="#64-Cadastrar-título">Cadastrar titulo</a></li>
-	<li><a href="#65-consultar-relatorio">Cosultar relatorio</a></li>
-	<li><a href="#66-Adicionar-usuário-como-amigo"> Adicionar usuário como amigo</a></li>
-	<li><a href="#67-Pesquisar-membro">Pesquisar membro</a></li> 
-	<li><a href="#68-Pesquisar-títuloo">Pesquisar título</a></li> 
+	<li><a href="#65-Cenário:-Consultar-relatórios">Cosultar relatorio</a></li>
+	<li><a href="#66-Cenário:-Adicionar-usuário-como-amigo"> Adicionar usuário como amigo</a></li>
+	<li><a href="#67-Cenário:-Pesquisar-membro">Pesquisar membro</a></li> 
+	<li><a href="68-Cenário:-Pesquisar-título">Pesquisar título</a></li> 
        </ul>
 	  <li><a href="#7-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
 	  <ul>
