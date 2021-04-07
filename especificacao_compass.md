@@ -387,36 +387,37 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 ![Diagrama em branco sequencia avalia like](https://user-images.githubusercontent.com/61236154/113491331-4e0eb200-94a6-11eb-84a6-8914b1780893.jpeg)
 
    ## 7.5.1 Solicita Amigo
+   
 ![diagrama de sequencia solicita amigo1](https://user-images.githubusercontent.com/61236154/113491350-70083480-94a6-11eb-911c-3ab21c3fbbed.jpeg)
 
    ## 7.5.2 Aceita amigo
+   
 ![diagrama de sequencia addamigo1](https://user-images.githubusercontent.com/61236154/113491360-8615f500-94a6-11eb-8422-ddba4f9c7801.jpeg)
 
    ## 7.5.3 Rejeita amigo
-
+   
 ![amigo rejeitado1](https://user-images.githubusercontent.com/61236154/113491370-a04fd300-94a6-11eb-9994-5a6dfb2ed4ba.jpeg)
 
    ## 7.6 Gerente
-
+   
 ![diagrama de sequencia gerente 4](https://user-images.githubusercontent.com/61236154/113491385-c1182880-94a6-11eb-9ccd-cb5f611da6da.jpeg)
 
    ## 7.7 Pesquisa membro
    
-   ![Diagrama_pesquisar_membro](https://user-images.githubusercontent.com/61236154/113491658-ddb56000-94a8-11eb-8166-34d50bd4ac62.jpeg)
+![Diagrama_pesquisar_membro](https://user-images.githubusercontent.com/61236154/113491658-ddb56000-94a8-11eb-8166-34d50bd4ac62.jpeg)
 
    ## 7.8 Pesquisa título
    
-   ![Diagrama_pesquisar_titulo](https://user-images.githubusercontent.com/61236154/113491660-e6a63180-94a8-11eb-8b77-2fc3cbca118c.jpeg)
+![Diagrama_pesquisar_titulo](https://user-images.githubusercontent.com/61236154/113491660-e6a63180-94a8-11eb-8b77-2fc3cbca118c.jpeg)
 
 
 # 8 Diagrama de domínio
-![diagramaDeDominio_R003](https://user-images.githubusercontent.com/61977035/113502821-fb181780-9504-11eb-884e-6d42c7bf7653.png)
 
+![diagramaDeDominio](https://user-images.githubusercontent.com/52939868/113800528-7f4ce380-972d-11eb-8a75-dd61c5e26027.jpeg)
 
 # 9 Diagrama de Classes
-![diagramaDeClasse_R005](https://user-images.githubusercontent.com/61977035/113518403-807ae680-955c-11eb-8643-7963c21661bd.png)
 
-
+![DiagramaDeClasse](https://user-images.githubusercontent.com/52939868/113800359-2d0bc280-972d-11eb-92b0-38c8005252c5.jpeg)
 
 # 10 Wireframes
 
