@@ -135,6 +135,7 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 
 ## 6.2 Cenário: Efetuar login
 
+![efetuar_login](https://user-images.githubusercontent.com/52939868/113795490-6ccdac80-9723-11eb-8fa7-7eea92ed1207.jpeg)
 
 
 **Objetivo:** Membro acessar o aplicativo com sua conta.
