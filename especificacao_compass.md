@@ -359,15 +359,12 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
           
 # 7 Diagrama de Sequência
 
-
-
    ## 7.1 Membro não castrado
 
 ![diagrama de sequencia membro não registrado5](https://user-images.githubusercontent.com/61236154/113491187-47336f80-94a5-11eb-8045-da90cc49bf08.jpeg)
 
    ## 7.2 Login
-![image](https://user-images.githubusercontent.com/61236154/113795433-460f7600-9723-11eb-8133-2184c54c934a.png)
-
+![image](https://user-images.githubusercontent.com/61236154/113795995-86bbbf00-9724-11eb-90a0-5fe039f3fcfb.png)
 
    ## 7.3.1 AddFilme
 
@@ -418,6 +415,8 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 
 # 9 Diagrama de Classes
 ![diagramaDeClasse_R005](https://user-images.githubusercontent.com/61977035/113518403-807ae680-955c-11eb-8643-7963c21661bd.png)
+
+
 
 # 10 Wireframes
 
