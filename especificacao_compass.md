@@ -134,7 +134,8 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
           5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o membro escolha outro nome de usuário.
 
 ## 6.2 Cenário: Efetuar login
-![UseCaseDiagram4 certo](https://user-images.githubusercontent.com/61236154/113448534-66ad9800-93d2-11eb-8b6b-ceca8db3539e.jpg)
+ ![image](https://user-images.githubusercontent.com/61236154/113795348-03e63480-9723-11eb-9ac7-85510dfbebdb.png)
+
 
 **Objetivo:** Membro acessar o aplicativo com sua conta.
 
