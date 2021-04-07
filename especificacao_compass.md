@@ -134,7 +134,7 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
           5. Retorna ao passo 3 do fluxo principal e o sistema solicita que o membro escolha outro nome de usuário.
 
 ## 6.2 Cenário: Efetuar login
- ![image](https://user-images.githubusercontent.com/61236154/113795348-03e63480-9723-11eb-9ac7-85510dfbebdb.png)
+
 
 
 **Objetivo:** Membro acessar o aplicativo com sua conta.
@@ -365,8 +365,8 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 ![diagrama de sequencia membro não registrado5](https://user-images.githubusercontent.com/61236154/113491187-47336f80-94a5-11eb-8045-da90cc49bf08.jpeg)
 
    ## 7.2 Login
+![image](https://user-images.githubusercontent.com/61236154/113795433-460f7600-9723-11eb-8133-2184c54c934a.png)
 
-![diagrama de sequencia fazer login 6](https://user-images.githubusercontent.com/61236154/113491223-806bdf80-94a5-11eb-83f8-e1cebd6915b2.jpeg)
 
    ## 7.3.1 AddFilme
 
