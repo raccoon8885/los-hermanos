@@ -268,11 +268,11 @@ Criadores de conteúdo: Poderão acessar as avaliações, comentários e crític
 
 **Fluxo alternativo:** Não possui.
 
-## 6.6 Cenário: Adicionar usuário como amigo
+## 6.6 Cenário: Manter amizade
 
 ![UseCaseDiagram5](https://user-images.githubusercontent.com/61236154/113448655-9fe60800-93d2-11eb-9865-6541f8f1e331.jpg)
 
-**Objetivo:** Saber de algumas ações no sistema do usuário ou manter contato com ele.
+**Objetivo:** Gerenciar pedido de amizade.
 
 **Atores:** Membros.
 
